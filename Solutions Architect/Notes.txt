@@ -1,0 +1,59 @@
+1)  AWS Cloud Practitioner 2019": AWS Cloud & the Value Proposition
+
+- Cloud Computing
+Cloud Computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources via the internet with pay-as-you-go pricing.
+Advantages      -   No need for large upfront investments
+                    No need to spend time managing hardware
+                    Provision the exact computing resource
+Four Services   -   Servers, Storage, Database, Application services 
+Other Services  -   ML AI, Blockchain, AR VR, IoT, Analytics, Robotics
+
+- Types of Cloud Computing/Service Models -   IaaS, PaaS, SaaS
+IaaS            -   Networking Infra including high speed connection between data centres
+                    Compute services(Server based/Serverless), running code in the Cloud
+                    Storage and Database services
+                    Example - AWS Virtual Private Cloud
+PaaS            -   Customers still do not manage/control AWS infrastructure
+                    Control Applications and Services
+                    Created using Programming languages, libraries, services and tools
+                    Some services are managed by AWS
+                    .net, java, python, ruby, go, json, yaml
+                    Example - Amazon Lightsail, Aurora
+SaaS            -   Uses Applications running on a cloud infrastructure
+                    Example - Gmail
+
+Database as a Service(DBaaS - Google Cloud Platform)
+Security as a Service(MSSP - Cisco, Splunk)
+Function as a Service(FaaS - MS Azure functions, Lambda functions)
+Containers as a Servoce(CaaS - Docker, Kubernetes on cloud)
+Malware as a Service(MaaS)
+
+- Cloud Deployment Models   -   Public, Private, Community, Hybrid Cloud
+Public Cloud Deployment     -   Provisioned for Open use by general public and various consumer organizations
+                                May be owned, managed and operated by an entity yet exists entirely on the premises of the cloud provider
+                                AWS GCP MSAzure IBMCloud OracleCloud
+Private Cloud Deployment    -   May be on-premises or off-premises at a provider
+                                Provisioned for exclusive use
+                                Often disconnected from the internet or public networks
+                                No giving up control, privacy and Security
+                                May be necessary due to regulations
+Community Cloud Deployment  -   Exclusive use by specific community of consumers
+                                Shared Mission, Policy, Compliance, Security
+Hybrid Cloud Deployment     -   Combination of two or more distinct cloud infrastructures
+                                Bound together by proprietary or standardized technology
+                                Used in disaster recovery and cloud bursting
+                                May need to keep assets and applications private for mission-criticality or Compliance
+                                SaaS is not a Hybrid cloud
+                                Example - Amazon Outpost
+
+- Introduction to AWS 
+AWS Services    -   Compute, Networking, Storage, Database
+
+AWS Value Proposition: Agility
+AWS Value Proposition: Elasticity
+AWS Value Proposition: Cost
+AWS Value Proposition: Flexibility
+AWS Value Proposition: Security
+
+
+2) AWS Solutions Architect Associate 2022: Architecture & Tools
