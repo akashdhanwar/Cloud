@@ -133,9 +133,86 @@ ________________________________________________________________________________
 
 INTRODUCING THE FRAMEWORKS
 
+- Cloud Adoption Framework Overview
+- Well-Architected Framework Overview
+- Exam Tips
 
+- Cloud Adoption Framework Overview(Refer Image 2a)
+https://d1.awsstatic.com/whitepapers/aws-caf-ebook.pdf
+It focuses on using AWS digitally transformed and accelerate business outcomes
+1 - Perspectives and Foundational Capabilities
+    Security    -   Focuses on Compliance and Assurance
+                    Security    -   Governance, Assurance and Application Security
+                    Protection  -   Infrastructure and Data Protection
+                    Management  -   Identity and Access, Vulnerability Management
+                    Incident Response 
+                    Threat Detection
+    Business    -   Focuses on Strategy and Outcomes
+                    Management  -   Strategy, Portfolio, Innovation and Product Management
+                    Data        -   Monetization, Data Science
+                    Business Insights
+    Platform    -   Focuses on Infrastructure and Applications
+                    Architecture & Engineering  -   Platform and Data
+                    CI/CD                       
+                    Modern Application Development
+                    Provisioning & Orchestration
+    Operations  -   Focuses on Successful Workflow Delivery
+                    Management      -   Event(AIOps), Incident & Problem, Change & Release, Performance & Capacity, Configuration, Patch, Availability & Continuity, Application
+                    Observability 
+    Governance  -   Focuses on minimizing transformation related risks and maximizing organisational benefits
+                    Management  -   Program & Project Benefits, Risk, Cloud Financial, Application Portfolio
+                    Data        -   Governance, Curation
+    People      -   Focuses on creating a bridge between technology and business
+                    Transformation  -   Leadership, Workforce
+                    Organizational  -   Design, Alignment
+                    Cloud Fluency
+                    Change Acceleration
+                    Culture Evolution
+2 - Cloud Transformation Domains
+    Technology  -   Using cloud to Migrate and modernize
+    Process     -   Digitize, Automate & Optimize 
+    Organization-   Reimagine Orchestration
+    Product     -   Reimagine your business model
+3 - Cloud Transformation Journey Phases 
+    Envision    -   Focuses on how to use the cloud to accelerate business outcomes
+    Align       -   Focuses on Identifying Capability gaps across the 6 Perspectives. Includes identifying cross organizational dependencies and find any area of concern
+    Launch      -   Deliver initiatives with value. Here we watch and learn before moving to next phase 
+    Scale       -   Focuses on expanding those transformations across our environment and scaling them up according to our requirements and goals
 
+- Well-Architected Framework Overview
+    Made up of six pillars  -   
+        Security                -   Focuses on protection of data, systems and any assets used by your workload(Principle of least privilidge, Securing data at rest, In-transit)
+                                    Eg - Use CloudTrail to log all actions performed in your account
+        Cost Optimization       -   Focuses on ongoing process of maintaining costs in the cloud(Right Sizing, Implementing Lifecycle)
+                                    Eg - Use S3 Intelligent-Tiering to automatically move data
+        Performance Efficiency  -   Focuses on the ability to use computing resources efficiently to meet requirements(Maximizing Resource usage)
+                                    Eg - Using Lambda to ruun code with zero administration
+        Operational Excellence  -   Focuses on creating application that successfully support your workload(Event Management)
+                                    Eg - Use CodeCommit for code and template version control
+        Reliability             -   Focuses on architecting a workload to be consistent and able to recover quickly(Disaster Recovery, Network Topology)
+                                    Eg - Use Multi-AZ deployments of RDS databases
+        Sustainability          -   Focuses on environmental impacts like energy efficiency and consumption(Region selection)
+                                    Eg - Use EC2 Auto Scaling to ensure maximum utilization
 
+    General Design Principles
+        Stop Guessing Your Capacity Needs(Autoscaling)
+        Test Systems at Production Scale
+        Consider Evolutionalry Architectures
+        Automate with Architectural Experimentation in Mind 
+        Drive Architectures using Data
+        Improve through Game Days 
+
+- Tips
+Understand the Cloud Adoption Framework Perspectives and the Cloud Transformation Journey Phases
+Understand Well-Architected Framework pillars, Design Principles and how they apply in the real world
+___________________________________________________________________________________________________________________
+
+MEETING THE AWS MANAGEMENT CONSOLE AND ACCESSING AWS
+
+- The AWS Management Console 
+- Root User 
+- The AWS Command Line Interface(CLI)
+- Exam Tips 
 
 
 
