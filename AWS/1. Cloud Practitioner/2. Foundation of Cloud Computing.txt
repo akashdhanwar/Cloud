@@ -214,6 +214,28 @@ MEETING THE AWS MANAGEMENT CONSOLE AND ACCESSING AWS
 - The AWS Command Line Interface(CLI)
 - Exam Tips 
 
+- The AWS Management Console
+AWS website home page is Management Console
+
+- Root User
+It is initially created when you setup the AWS account. It is the only account that have full permission of everything
+Step 1  -   Enable MFA for Root user. Create a new user/group to use for day-to-day task in IAM service
+
+- The AWS CLI
+CLI is generally used by Developers, Engineers and Resources through commands
+CLI have features before it comes in Management Console. CLI gives us programmatic access 
+CLI uses a terminal session to access resources programmatically
+Other ways to get programmatic access include Application Code with SDKs using programmatic calls
+SDKs can access resources using programming languages(Java, Python, C# and more)
+
+- Tips
+Root user must be protected by MFA and must not be used for daily tasks
+The Root user has power that no other user has
+CLI and SDKs are other options to manage AWS resources
+___________________________________________________________________________________________________________________
+
+DEMO: EXPLORING YOUR AWS ACCOUNT 
+
 
 
 
@@ -234,3 +256,7 @@ What could you use to ensure this ?                                             
 
 You need to lower latency on a website that is available on two continents.
 What can you use to do this ?                                                                                               -   Edge Locations
+
+Your AWS account was created last week. You are logging into your account for the second time to create some resources.
+Should you use the root user to log in ?                                                                                    -   No
+
