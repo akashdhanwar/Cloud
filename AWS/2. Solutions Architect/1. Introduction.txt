@@ -1,0 +1,35 @@
+AWS Fundamentals, IAM, S3, EC2, EBS and EFS, Databases, VPC Networking, Route 53, Elastic Load Balancing, Security, AI and ML, Media
+Monitoring, High Availability and Scaling, Decouling workflows, Big data, Serverless architecture, Automation, Caching, Governance, Migration
+Decoupling orkflowws, Big data, Serverless Architecture, Governance, Migration
+
+Exam Guide -
+1   -   Response Types  -   Scenario based      - Large majority of questions on real-world scenarios
+                            MCQ                 - One/Four correct 
+                            Multiple Response   - Two/Five correct
+
+Past Questions  -   Design Resilient Architectures                  -   30% -> 26%
+                    Design High-Performing Architectures            -   28% -> 24%
+                    Design Secure Applications and Architectures    -   24% -> 30%
+                    Design Cost-Optimized Architectures             -   18% -> 20%
+
+Design Resilient Architectures - 
+    Design a multi-tier architecture soluton
+    Design highly available and/or fault-tolerant architectures 
+    Design decoupling mechanisms using AWS services
+    Choose appropriate resilient store 
+Design High-Performing Architectures -
+    Identify elastic and scalable compute solutions for a workload
+    Select high-performing and scalable storage solutions for a workload
+    Select high-performing networking solutions for a workload
+    Choose high-performing database solutions for a workload
+Design Secure Architectures -
+    Design secure access to AWS resources
+    Design secure application tiers
+    Select appropriate data security options
+Design Cost-Optimized Architectures -
+    Identify cost-effective storage solutions
+    Identify cost-effective compute and database services
+    Design cost-optimized network architectures
+
+Exam Result - 100-1000 marks, 65 Questions, 130 minutes
+Pass Marks  - 720

@@ -1,0 +1,83 @@
+GET YOUR HEAD IN THE CLOUD -
+
+What is the Cloud -
+    AWS has thousands of servers grouped together called Datacenters and Scattered in different countries
+    https://aws.amazon.com/compliance/data-center/data-centers/
+    AWS uses virtualization of servers to divide memory of each server into smaller parts
+    Each Server has multiple Virtual Machines. Each VM has its own OS, memory. 
+    On-Demand and and Pay-As-You-Go 
+
+What is Cloud Computing -
+It is the delivery of computing services over the internet
+Compute Services                    -   EC2
+Storage Services                    -   S3
+Networking Services                 -   VPC
+Database Services                   -   RDS
+Development, Messaging and Deployment
+Migration and Transfer              -   Migration Hub
+AI and ML                           -   Recognition
+Auditing, Monitoring and Logging    -   Truted Adviser
+Security, Compliance and Governance -   IAM
+Pricing, Billing and Support        -   Pricing Calculator
+___________________________________________________________________________________________________________________
+
+INTRODUCING CLOUD COMPUTING AND DEPLOYMENT MODELS -
+
+- CapEx vs OpEx
+- Cloud Computing Advantages and Benefits
+- Cloud Computing Models
+- Cloud Deployment Models
+- Exam Tips 
+
+- CapEx(Capital Expenditures) vs OpEx(Operating Expenses)
+CapEx are upfront purchases towards fixed assets(Equipment, Property, Computer and Sofware)
+OpEx are funds used to run day-to-day operations(Employee Salary, Marketing, Rent and RnD)
+
+- Cloud Computing Advantages 
+Global in Minutes(We can deploy our applications around the world on click of a button)
+No Data Center Spend(Focus on Application instead of managing hardware)
+Economies of Scale
+Speed and Agility 
+Stop Guessing Capacity
+CapEx for Variable Expense 
+- Benefits
+High Availability
+Agility
+Elasticity
+Durability
+
+- Cloud Computing Models
+Infrastructure as a Service -   It is like a Building block that can be rented and we can choose how to put them together. 
+                                Eg - Having a monthly subscription with a hosting company that serves a website
+Software as a Service       -   Using a complete Application on demand that someone offers to users.
+                                Eg - Personal Email that we access using a browser
+Platform as a Service       -   Used by Developers to help develop softwares using web based tools without worrying about the underlying infrastructure.
+                                Ex - Tools provided to build applications that runs on another company's server
+
+- Cloud Deployment Models
+Private Cloud       -   Resources like servers and databases are all on-premises. 
+                        Local network/Private cloud is our internal data center.
+                        Private cloud don't have any advantages that we learnt
+                        But it offers more security to our data that is not traversing public place and not shared with other organisations ith virtualization
+Public Cloud        -   This is AWS, Azure and GCP
+                        No hardware responsibility, has all advantages of the cloud
+Hybrid Cloud        -   Public + Private Cloud
+                        Sensitive data is stored locally and safely connected to public cloud like AWS using services like VPN and Direct Connect 
+                        VPN can create a secure connection into a public cloud(Eg - Creating a new resources in AWS)
+                        Direct Connect creates a secure connection for data to move from public cloud to private cloud outtraversing the public internet
+
+- Exam Tips 
+Six Advantages, Cloud Benefits and Terminology
+Computing models IaaS, PaaS, SaaS
+Deployment Models Private, Public, Hybrid Cloud(Hybrid cloud supported by Direct Connect)
+___________________________________________________________________________________________________________________
+
+EXPLORING REGIONS AND AVAILABILITY ZONES
+
+- AWS Regions
+- Region Characteristics
+- AWS Availability Zones
+- Availability Zones Characteristics
+- Quick Quiz
+- Exam Tips 
+

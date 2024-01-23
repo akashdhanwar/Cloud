@@ -1,0 +1,38 @@
+Clous Foundation and Compute
+Storage, Networking and Compute
+Deployment, Migration and AI
+Monitoring, Security and Pricing
+Exam Preparation
+
+
+ABOUT THE EXAM -
+90 minutes, 65 MCQ, 100 US Dollars
+https://aws.amazon.com/certification/certified-cloud-practitioner/
+https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf
+
+Read Whitepaper before the Exam - 
+https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-overview/aws-overview.pdf
+
+First Step
+    Cloud Practitioner(Foundational Exam) 
+
+Some Experience
+    Solutions Architect(Associate)
+    SysOps Administration(Associate)
+    Developer(Associate)
+
+2 Years Experience
+    Solutions Architect(Professional)
+    DevOps Engineer(Professional)
+
+    Advanced Networking(Speciality)
+    Data Analytics(Speciality)
+    Database(Speciality)
+    Machine Learning(Speciality)
+    Security(Speciality)
+    SAP on AWS(Speciality)
+
+
+TIPS -
+Learn the Service Categories(Example EC2 is Compute, VPC is Networking Service)
+Read the AWS Services Whitepapers
