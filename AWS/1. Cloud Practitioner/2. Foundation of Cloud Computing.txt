@@ -78,6 +78,82 @@ EXPLORING REGIONS AND AVAILABILITY ZONES
 - Region Characteristics
 - AWS Availability Zones
 - Availability Zones Characteristics
-- Quick Quiz
 - Exam Tips 
 
+- AWS Regions and Characteristics
+AWS Region is a physical location
+AWS groups their Regions by geographical locations and can include several regions within each location 
+Eg - Ohio & N. Virginia regions resides under US East geographical location
+Regions are fully independent and isolated, If one region is impacted by earthquake then others will not be
+Regions are Service and Resource specific means they are isolated and Resources are not automatically replicated across them
+
+- AWS Availability Zones
+AWS Region consists of multiple Availability Zones
+AWS AZ consists of one or more physically separated data centers. Each data centre is housed in different facilities
+AZ are One or more discrete data centers with redundant power, networking and connectivity in an AWS Region
+
+- AZ Characteristics
+They are connected with low latency links
+They are Fault tolerant
+High Availability
+
+- Exam Tips
+Region is global and is made up of two or more AZs
+AZ is made up of multiple data centers
+Multi AZ Deployment provide high availability
+___________________________________________________________________________________________________________________
+
+REVIEWING EDGE LOCATIONS AND LOCAL ZONES
+
+- Latency Exlained
+- Local Zones
+- Edge Locations
+- Exam Tips
+
+- Latency Explained
+Latency is the amount is takes for a website to load 
+The time that passes between a user request and the resulting response
+
+- Local Zones
+Local Zones place AWS services like compute, storage, databases and others closer to end-users
+This allows for any demanding application that require millisecond latencies
+Eg - For real time gaming
+Local Zones are extensions to AWS Regions and provide high bandwidth and secure connections
+
+- Edge Locations
+Edge Locations can help to reduce latency.
+They are not used for launch resources but instead to cache content for faster delivery to users
+It is a feature provided by CloudFront(Content Delivery and Networking) service. It uses AWS Backbone network
+There are more Edge Locations than Regions or AZs
+
+- Tips
+Edge Locations ensure low latency by placing content closer to users
+Local Zone is an extension of a Region enabling things like real-time gaming
+___________________________________________________________________________________________________________________
+
+INTRODUCING THE FRAMEWORKS
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Quiz
+You have been asked by an executive if the application launched is fault tolerant
+You investigate and see that it is currently in us-east-1a only. Is the application fault tolerant ?                        -   No
+
+You have your application running across multiple AZs but it has gone down
+What could be the reason ?                                                                                                  -   Whole Region being out of service
+
+You have been tasked with ensuring that there is ms latency on the latest application launched
+What could you use to ensure this ?                                                                                         -   Local Zones
+
+You need to lower latency on a website that is available on two continents.
+What can you use to do this ?                                                                                               -   Edge Locations
