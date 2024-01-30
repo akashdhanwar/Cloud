@@ -236,6 +236,62 @@ ________________________________________________________________________________
 
 DEMO: EXPLORING YOUR AWS ACCOUNT 
 
+- Scenario
+- Demonstration
+- Exam Tips
+
+- Scenario
+You have been tasked with creating a new AWS account and securing the root user. 
+You will need to create a user for your team to utilize daily.
+
+Create AWS account, Secure the Root User, Create a daily user
+https://aws.amazon.com/console/
+Create an Account , Add MFA for root
+Go to IAM > Access Management > Users > Create User > "AWSFoundation"
+    Provide user access to AWS Management Console > Create an IAM user > Password "AWS@Foundation"
+    Provide policies > "AdministratorAccess" > Create User
+    Logout from root user and login to IAM user
+
+- Tips 
+How to protect the root user    -   Through MFA 
+How to Navigate through AWS Management Console 
+___________________________________________________________________________________________________________________
+
+FOUNDATIONS OF CLOUD COMPUTING EXAM TIPS
+
+- Review Time 
+
+Knowing the Service Category    -   Reading AWS whitepapers
+The 6 advantages and 4 Benefits of Cloud 
+Cloud Computing Models and Cloud Deployment Models
+Regions = two or more AZs. AZs = multiple data centres. Multi AZ = high availability and fault tolerance
+Edge Locations = Low Latency. Local Zones = Extension of a Region 
+Cloud Adoption Framework, Well-Architected Framework Pillars 
+___________________________________________________________________________________________________________________
+
+FOUNDATIONS OF CLOUD COMPUTING QUIZ 
+
+- You need to implement low latency. What can you utilize to achieve this ?                                                 -   Local Zones/Edge Locations
+- You need to deploy your cloud environment across AWS and your on-premises data center using Direct Connect.
+Which cloud Deployment model can accomplish this ?                                                                          -   Hybrid
+- You are verifying the latency on a newly released website. 
+You notice it is loading really quickly. What type of latency would this be ?                                               -   Low Latency
+- You need to create a highly available application in the cloud. How can you accomplish this ?                             -   Multiple AZs
+- Which of the following cannot be used to access your AWS resource.
+Application code, SDKs, MFA, AWS CLI                                                                                        -   MFA 
+- Which of the following statements is true ?
+One of the pillars of the Well-Architected Framework is Renewability
+There are four pillars in the Well-Architected Framework
+There are six pillars in the Well-Architected Framework                                                                     -   This one
+The AWS Well-Architected Framework maps out the AWS Regions 
+- You are paying a monthly subscription to a company to host your website.
+Which cloud computing model is this an example of ?                                                                         -   IaaS 
+- Which service category is not offered by AWS ? Database, Data Center, Compute, Developer Tools                            -   Data Center
+- Which of the following are considered advantages of the cloud ?
+Going global in minutes, SaaS, Local Zones, Hybrid models                                                                   -   Going global in minutes
+- You have just had your whole AWS account deleted by an attacker. You are creating a new AWS account.
+How can you ensure that the same thing will not happen again ?                                                              -   Enable MFA for root
+___________________________________________________________________________________________________________________
 
 
 
