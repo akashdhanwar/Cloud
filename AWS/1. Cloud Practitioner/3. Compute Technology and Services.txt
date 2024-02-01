@@ -1,0 +1,72 @@
+
+COMPUTE: THE BIGGER PICTURE
+
+- Compute Overview
+- Introduction to EC2
+- Exam Tips 
+
+- Compute Overview
+There is a free tier for EC2 
+Compute is used to describe Concepts and Services geared towards Computation and Processing
+CPU, GPU are included in this
+EC2 - Elastic Cloud Compute(These are virtual servers in the cloud). It can grow/shrink
+EC2 is a foundational service that we use to manage our virtual instances
+It allows us to provision them on single click of a button/template called AMI(Amazon Machine Image)
+AMI has important information including OS 
+Uses of EC2
+    We can also directly deploy our applications to EC2 instance using multiple AZs for high availability
+    Use EC2 as a database to have full control over the database
+EC2 offers 6 families of instances that are broken into types, generation and sizes which makes up 100 of options
+Families include    
+    General Purpose
+    Compute Oriented
+    Memory Optimized
+    Accelerated Computing
+    Storage Optimized
+    High Performance Computing(HPC) Optimized
+Pricing for EC2 
+    On Demand       -   Fixed Price billed by the second
+                        Use when-   Low costs, no upfront payments or commitments
+                                    Cannot interrupt unpredictable workloads
+                                    Developing applications (Think on Demand)
+                                    Workload wont run longer than a year
+                        Capacity Reservations hold capacity whether or not you run an instance
+                        Capacity Reservations   -   High Avvailability, Disaster Recovery, Capacity Assurance
+    Spot instances  -   Takes advantage of unused EC2 capacity
+                        Use when-   Not concerned with start or stop times
+                                    Can interrupt workload 
+                                    Very low compute prices are needed
+                                    CHEAPEST OPTION
+                        Pay the price in effect at the beginning of the hour and save up to 90% off On-Demand prices
+    Dedicated Hosts -   Pay for a physical server that is fully dedicated to running your instances
+                        Use when-   Bring your own server-bound software license like Microsoft or Oracle
+                                    Regulatory or corporate compliance requirements around tenacy
+                        Up to 70% off On-Demand prices. No sharing your server with other customers.
+                        Dedicated Hosts = Physical Servers. Dedicated instances runs on Dedicated Host
+    Reserved Instances- RI Commit to a specific instance type for 1 to 3 years
+                        Use when-   Steady stage usage and can commit 
+                                    Pay money upfront
+                                    Application requires a capacity reservation 
+                        Up to 72% off On-Demand prices with a CONTRACT. Reserve capacity in ana AZ for any duration
+                        Pay all, partial or no upfront, but all upfront offers the highest discount
+                        Convert instance types at 66% discount
+    Savings Plans   -   Commit to compute usage for 1 to 3 years(measured per hour)
+                        Use when-   Lower your bill across multiple compute services like EC2, Lambda
+                                    Flexibility to change compute services, instance types, OS, or Regions
+                        72% off On-Demand prices
+                        Share savings across compute services
+                        No capacity reservations 
+
+- Tips
+Know the EC2 Pricing options    -   On-Demand, Spot, Dedicated Hosts, RI, Savings Plan
+Understand the real world usage of EC2  -   Deploying a database or a web application 
+__________________________________________________________________________________________________________________________________
+
+REVIEWING EC2 FEATURES 
+
+- Load Balancing
+- Auto Scaling 
+- Compute Optimizer
+- Exam Tips 
+
+- Load Balancing
