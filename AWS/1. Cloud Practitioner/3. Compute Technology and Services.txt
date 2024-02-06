@@ -79,5 +79,21 @@ Network - Extreme performance and static IP address at Layer 4 which includes TC
 - Auto Scaling
 Adds or replaces EC2 instances automatically across AZs
 There are 2 types of autoscaling
+Horizontal - Scaling out. Reduces the impact of system failures and improves availability as it uses multiple AZs and adds or removes instances.
+Vertical - Scaling Up. Upgrades EC2 instances to add more power/cpu/ram to an existing server. Eg - T3 small to T3 medium
+
+- Compute Optimizer
+It helps to RightSize instances, volumes, containers or lambda functions based on data from our usage.
+It also provides recommendations on how to improve performance and identify underprovisioned/overprovisioned resources. 
+Configure external metrics. 
+Streamline migration to AWS Graviton CPUs.
+
+- Tips
+Difference between Horizontal and Vertical scaling
+Benefits of auto scaling
+Know the types of load balancers
+
+
+
 
 
