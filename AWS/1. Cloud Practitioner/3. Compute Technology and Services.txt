@@ -95,5 +95,22 @@ Know the types of load balancers
 
 
 
+DEMO: EXPLORING COMPUTE SERVICES - EC2 IN ACTION
+
+- Connecting to EC2
+- Scenario
+- Demonstration
+- Exam Tips
+
+- Connecting to EC2
+There are 4 ways 
+AWS Management Console - From Browser
+EC2 Instance Connect(EIC) - Allows us to use IAM policies to control SSH access to instances removing the need to manage SSH keys
+Secure Shell(SSH) and Remote Desktop Protocol(RDP) - SSH for linux EC2 instance, RDP for windows EC2 intances. Creates a secure connection to instances from local laptop or PC. It requires a key pair which consists of private and public key
+AWS Systems Manager - Manage instances via browser or AWS CLI.
+
+- Scenario
+
+
 
 
