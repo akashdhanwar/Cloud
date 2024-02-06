@@ -70,3 +70,14 @@ REVIEWING EC2 FEATURES
 - Exam Tips 
 
 - Load Balancing
+There are 4 load balancer types
+Classic - Best used for EC2 Classic network and Layer 4/7. It uses TCP, SSL/TLS and HTTP/HTTPS protocol listeners
+Application - Provides flexible application management at Layer 7. It uses HTTP/HTTPS/GRPC protocols
+Gateway - Best used for network logging and monitoring with third-party virtual appliances, Layer 3 as a gateway and Layer 4 as load balancer. It works at gateway level, hence only have IP protocol listeners hence not used for any other use case
+Network - Extreme performance and static IP address at Layer 4 which includes TCP/UDP/TLS protocol
+
+- Auto Scaling
+Adds or replaces EC2 instances automatically across AZs
+There are 2 types of autoscaling
+
+
