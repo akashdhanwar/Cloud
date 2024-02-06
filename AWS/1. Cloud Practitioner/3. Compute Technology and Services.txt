@@ -110,6 +110,10 @@ Secure Shell(SSH) and Remote Desktop Protocol(RDP) - SSH for linux EC2 instance,
 AWS Systems Manager - Manage instances via browser or AWS CLI.
 
 - Scenario
+You have been tasked with creating a new EC2 instance named Web App using an Amazon Linux AMI. The instance should be part of free tier and use a new key pair named NewKeyPair. Make sure to test its connection.
+Create the EC2 instance
+Configure the instance - Use Amazon Linux AMI, use free tier, create key pair
+Connect to the instance - Test
 
 
 
