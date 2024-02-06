@@ -115,6 +115,8 @@ Create the EC2 instance
 Configure the instance - Use Amazon Linux AMI, use free tier, create key pair
 Connect to the instance - Test
 
-
+- Tips
+Understand how to connect to EC2 instance from the console
+Know the various ways to connect to a Linux EC2 instance 
 
 
