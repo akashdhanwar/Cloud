@@ -150,3 +150,30 @@ You need to use docker to manage your newly deployed container based application
 Know the differences between ECS and EKS
 Understand realworld usage of containers
 
+
+SERVERLESS SERVICES: THE BIGGER PICTURE
+
+- What is Serverless
+- Lambda Overview
+- Fargate Overview
+- Exam Tips
+
+- What is Serverless
+Serverless is a cloud needed development model without managing servers.
+
+- Lambda Overview
+It is a Serverless Compute Service and the code we write is called a function
+Lambda scales automatically
+Use Case -
+Real-Time File Processing - We have a file that we upload to S3 bucket, it can trigger a Lambda function and upload it to dynamodb table to store that data 
+Sending Email Notifications - Any chages made to our file using Code commit. We can use Cloudwatch to trigger a lambda function to trigger SNS to trigger email
+Backend Business Logic - Alexa Skill to trigger Lambda function to retrieve information from dynamodb and send back info to alexa using another lambda trigger
+
+- Fargate Overview
+Pay-as-you-go auto scaling compute engine
+To use, select/build container image and define memory and compute resources, Run and manage containers
+It has isolation by design
+
+
+
+
