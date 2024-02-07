@@ -120,3 +120,33 @@ Understand how to connect to EC2 instance from the console
 Know the various ways to connect to a Linux EC2 instance 
 
 
+CONTAINERS: THE BIGGER PICTURE
+
+- Containers Overview
+- Containers on AWS
+- Quiz
+- Exam Tips
+
+- Containers Overview
+Container holds Application or Services. We can stack multiple containers on a single server
+Benefits - Portability, Operational consistency, Efficiency, Accelerate Application Development Cycles, Less overhead
+Use Cases - Lift and shift of existing applications into cloud architectures, Refactoring applications, Support for microservice architecture, Support for CI/CD deployments, Easier deployment of repetitive tasks
+
+- Containers on AWS
+It Uses -
+Elastic Container Registry(ECR) - Store Deploy and Store container software
+Elastic Container Service(ECS) - Fully managed and serverless using Fargate
+ECS supports Docker and Docker compose CLI
+Elastic Kubernetes Service(EKS) - Kubernetes is open source system
+EKS support Kubernetes
+Similarities -
+They both take from ECR and makes the application and puts it in a box or container. They both Deploy Manage and Scale application 
+Both can run with EC2, Fargate, Outposts or ECS anywhere. But EKS can also run using Local Zones and Wavelength
+
+- Quiz 
+You need to use docker to manage your newly deployed container based application. Which AWS service can help you manage the app?     ECS
+
+- Tips
+Know the differences between ECS and EKS
+Understand realworld usage of containers
+
