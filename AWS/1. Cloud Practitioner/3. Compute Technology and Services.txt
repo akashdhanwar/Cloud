@@ -220,11 +220,52 @@ INTRODUCING ADDITIONAL COMPUTE SERVICES
 - Batch
 - Wavelength
 - Quiz
-- Exam Tips
 
 - Outpost
 Allows us to run cloud services in our internal data centre means on-premises(Fully managed on-premises solutions)
 Supports hybrid workloads that needs to remain on premises due to latency or data sovereignity(data at a particular location)
+They allows us to have access to cloud services and api to develop applications on premises and have two offerings in the outpost family
+There is Outpost Rack and Outpost Servers
+AWS installs servers individually or on a rack depending on the family we selected into our internal data centre
+
+- Lightsail
+Not on premises
+Allows us to quickly launch all the resources you need for small projects such as pre configure applications like wordpress website or small test environments
+Very simple user interface 
+Bundles everything we need together
+Low cost
+Lightsail for research allows us to use more powerful computer for complex research simulation in just few clicks
+
+- Batch
+Allows us to process large workloads into smaller chunks or batches
+Used for longer running jobs 
+Dynamically provisions instances based on the volume of workload
+
+- Wavelength
+Delivers Ultra low latency applications for devices using 5g networking. Zones and subnets helps for achieving it 
+
+- Quiz
+You need to select a service to implement a quick deployment of a small temporqry test environment. What service can you use to accomplish this?     - Lightsail
+You need to suggest a service that will allow your data to reside in your data center and support a hybrid deployment model. What can you use to do this ?   - Outpost
+
+
+COMPUTE TECHNOLOGY AND SERVICES EXAM TIPS 
+
+- EC2 Pricing Options - On-Demand, Spot Instances, Dedicated Hosts, Reserved Instances and Savings Plan. 
+Spot Instances are cheapest if start and stop time doesnt matter
+Savings Plan and Reserves Instances are time commitment from 1-3 years
+Dedicated hosts are not same as dedicated instances
+- Real-World Uses of EC2 - Application and Database
+- Scaling Types and Benefits - Horizontal(High Availability) or scaling out and Vertical or scaling up
+- Load Balancing - Classic, Gateway, Application(Use HTTP/HTTPS) and Network(Extreme Performance with TCP/UDP/TLS)
+- Connecting to EC2 Instance - Console, Instance Connect, SSH(key pair required), Systems Manager
+- ECS vs EKS
+- Containers usage - Lift and shifts, Microservices architecture, CI/CD, Refactoring applications
+- Serverless - We focus on code only.
+- Fargate is considered serverless and used to manage containers. Fargate has no upfront cost and pay only for resources used
+- Lambda has always free tier(1 million request per month), has 15 minute timeout and can be triggered by events
+- Additional Compute services - Outpost(supports hybrid deployment models), Lightsail(quick launch small projects), Batch(processes larger workloads in smaller batches), Wavelength(allows users to reach application servers without leaving 5g mobile network)
+
 
 
 
