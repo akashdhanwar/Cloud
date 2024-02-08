@@ -48,12 +48,36 @@ Know the differences in Dirability and Persostance, Performance and Cost
 AMAZON SIMPLE STORAGE SERVICE(S3): THE BIGGER PICTURE
 
 - What is S3
-- S3 Components
 - Benefits of S3
 - Use Cases
 - Exam Tips
 
 - What is S3
 S3 is like refrigerator to store ingredients. In refrigerator we have buckets. Each bucket contains specific ingredients
-Similarly Bucket is our primary container and inside it we have objects.
+Similarly Bucket is our primary container and inside it we have objects, each object has some metadata
+
+- Benefits of S3
+99.99999999999% Durable upto 9 digits
+Scalable - Virtually unlimited
+Security - Bucket policies, Access control lists
+Versatility - Stor images, videos, backups and big data 
+
+- Use cases 
+Data Backup, Web hosting, Content Distribution(CloudFront), Data Lakes
+
+- Tips
+S3 is object storage holding both data and metadata
+Each object in S3 has data, a unique key and metadata
+
+EXPLORING S3 STORAGE CLASSES
+
+- Standard
+- Intelligent-Tiering
+- Infrequent Access
+- Glacier
+- Exam Tips
+
+
+- Standard
+
 
