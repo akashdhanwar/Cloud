@@ -7,10 +7,19 @@ EXPLORING EC2 STORAGE
 - Exam Tips
 
 - What is EC2
+
 - EBS/EFS(Amazon Elastic Block Store/ Elastic File System)
+EBS -
 EBS is like oven in kitchen, it is directly attached and reliable 
 Features EBS-
 High Availability and Durable - Suited for EC2 instances, Ensures data is preserved even if the instance crashes
 Scalability - Expands on-the-fly without any downtime
 Snapshot - Can take backups and also use these backups to create new volumes
+Use Cases EBS -
+Hosting relational or NoSQL database
+Data warehousing and big data analytics
+ERP and CRM applications
+EFS -
+
+
 
