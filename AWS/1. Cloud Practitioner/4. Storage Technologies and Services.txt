@@ -20,6 +20,29 @@ Hosting relational or NoSQL database
 Data warehousing and big data analytics
 ERP and CRM applications
 EFS -
+Features -
+Fully managed - Removes the complexity of deploying and maintaining file systems. 
+Automatic Scaling - Automatically scales on demand without disrupting applications
+Concurrent Access - Multiple EC2 instances can access an EFS system simultaneously
+Use Case -
+Growing web app like Content Management and web serving
+Data analytics applications
+Development and testing environments 
+
+- Instance Store
+Temporary block level storage directly attached to EC2 instance
+Features -
+High I/O Performance - Offers very high input/output operations per second
+Temporary Storage - Data is lost if the instance is stopped or terminated
+No extra cost - They comes as part of the instance 
+Use cases -
+Temporqry storage pf cache and buffers
+Write and discard large amounts of data
+Storage for applications that replicate data across multiple instances
+
+- Tips
+Understand the Differences between EBS, EFS and Instance stores
+Know the differences in Dirability and Persostance, Performance and Cost
 
 
 
