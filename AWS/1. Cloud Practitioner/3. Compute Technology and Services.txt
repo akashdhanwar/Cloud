@@ -213,6 +213,19 @@ You have been asked to provide your team with a walkthrough of the Lambda servic
 Navigate the Lambda, Create a Function(make .mjs to .js), Test the Function(Replace the code and test)
 
 
+INTRODUCING ADDITIONAL COMPUTE SERVICES
+
+- Outpost
+- Lightsail
+- Batch
+- Wavelength
+- Quiz
+- Exam Tips
+
+- Outpost
+Allows us to run cloud services in our internal data centre means on-premises(Fully managed on-premises solutions)
+Supports hybrid workloads that needs to remain on premises due to latency or data sovereignity(data at a particular location)
+
 
 
 
