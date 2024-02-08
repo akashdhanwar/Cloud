@@ -268,5 +268,24 @@ Dedicated hosts are not same as dedicated instances
 
 
 
+COMPUTE TECHNOLOGY AND SERVICES QUIZ
 
+- You have been tasked with deploying a database and hosting a web application. What service can you select to achieve both ?  - EC2
+- You need to ensure that the load balancer you select can support extreme performance and TCP protocol. Which load balancer can meet these requirements ?  - Network
+- Which of the following is not true ?  C
+Aws fargate is serverless
+Amazon lightsail is a cloud platform offering you everything you need to build an application or website
+ECS and EKS support Kubernetes
+With aws lambda, you pay only for the compute time you consume
+- Which of the following is not true ?  - D
+Aws batch provides fully managed batch processing at any scale
+Amazon EC2 provides secire and resizable compute capacity in the cloud
+Aws savings plan offers a flexible pricing kodel
+Fargate is not a serverless service
+- You need to suggest the cheapest pricing option for EC2 instances. There are not requirements that need to be met. Which pricing option can you suggest ?  - Spot instances
+- You need to utilize a service that allows users to reach application servers over the mobile network. Which service provides this ability ?  - Wavelength
+- You are explaining to a newly hired team member how to connect to an EC2 instance. Which is not a way to connect to an EC2 instance ?  - Lambda
+EC2 Instance Connect, AWS management consile, Lambda, Secure Shell(SSH)
+- You need to launch a test environment quickly. Which service can accomplish this ?  - Lightsail
+- You have been tasked with improving the availability of your application and curb costs when peak hours subside. What can you implement to accomplish this ?  - 
 
