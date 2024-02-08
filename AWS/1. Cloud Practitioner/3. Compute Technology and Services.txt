@@ -287,5 +287,6 @@ Fargate is not a serverless service
 - You are explaining to a newly hired team member how to connect to an EC2 instance. Which is not a way to connect to an EC2 instance ?  - Lambda
 EC2 Instance Connect, AWS management consile, Lambda, Secure Shell(SSH)
 - You need to launch a test environment quickly. Which service can accomplish this ?  - Lightsail
-- You have been tasked with improving the availability of your application and curb costs when peak hours subside. What can you implement to accomplish this ?  - 
+- You have been tasked with improving the availability of your application and curb costs when peak hours subside. What can you implement to accomplish this ?  - Auto scaling
+- You need to send out 50000 newsletters by email today. How can you limit the number of messages sent at one time efficiently ?  - Use Batch
 
