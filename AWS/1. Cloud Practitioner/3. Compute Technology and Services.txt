@@ -208,6 +208,10 @@ No free tier
 
 DEMO: EXPLORING COMPUTE SERVICES - LAMBDA IN ACTION
 
+- Scenario
+You have been asked to provide your team with a walkthrough of the Lambda service. You will have to create a function and poont out important information as you go
+Navigate the Lambda, Create a Function(make .mjs to .js), Test the Function(Replace the code and test)
+
 
 
 
