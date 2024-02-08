@@ -45,4 +45,15 @@ Understand the Differences between EBS, EFS and Instance stores
 Know the differences in Dirability and Persostance, Performance and Cost
 
 
+AMAZON SIMPLE STORAGE SERVICE(S3): THE BIGGER PICTURE
+
+- What is S3
+- S3 Components
+- Benefits of S3
+- Use Cases
+- Exam Tips
+
+- What is S3
+S3 is like refrigerator to store ingredients. In refrigerator we have buckets. Each bucket contains specific ingredients
+Similarly Bucket is our primary container and inside it we have objects.
 
