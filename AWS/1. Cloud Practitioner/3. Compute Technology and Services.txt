@@ -173,6 +173,41 @@ Backend Business Logic - Alexa Skill to trigger Lambda function to retrieve info
 Pay-as-you-go auto scaling compute engine
 To use, select/build container image and define memory and compute resources, Run and manage containers
 It has isolation by design
+Fargate is a launch type in ECS for containers as is EC2
+Use Case -
+Message driven workloads - Suppose a SQS(Simple Queue Servicequeue) that fargate uses to long pull messages. Fargate processes and stores it in dynamodb
+Lambda is used for short and redundant tasks. If Process is greater than 15 minutes then Fargate is good
+Event Driven and Scheduled Workloads
+
+- Tips
+Know when to use serverless service like lambda
+Fargate is considered serverless and used to manage containers
+
+
+UNDERSTANDING SERVERLESS PRICING AND FEATURES
+
+- Lambda features and Pricing
+- Fargate Pricing
+
+- Lambda Features 
+Supports Programming languages
+Uses various development environments
+Executes code in response to events
+15 minute timeout, 3 sec default
+- Lambda Pricing
+Depends on number of requests as well as duration
+Starts at invocation
+Duration rounded up to 1ms
+Lambda always free tier. 1 million free requests a month
+- Fargate Pricing
+No upfront cost just like lambda
+Pay for resources used vCPU, memory and storage
+No free tier
+
+
+
+DEMO: EXPLORING COMPUTE SERVICES - LAMBDA IN ACTION
+
 
 
 
