@@ -1,1 +1,14 @@
 
+EXPLORING EC2 STORAGE
+
+- What is EC2
+- EBS/EFS
+- Instance Store
+- Exam Tips
+
+- What is EC2
+- EBS/EFS
+Amazon Elastic Block Store, Elastic File System
+EBS is like oven in kitchen, it is directly attached and reliable 
+Features -
+High Availability and Durable
