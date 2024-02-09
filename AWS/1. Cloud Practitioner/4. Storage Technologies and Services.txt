@@ -121,6 +121,25 @@ Bucket name should be globally unique, Default permission is to block all access
 Properties contains versioning, Permission contains policies, Management contains lifecycle policy to move object between storage classes through lifecycle rule actions
 
 
+INTRODUCING ADDITIONAL STORAGE SERVICES
+
+- FSx
+- Elastic Disaster Recovery
+
+- FSx 
+Specially designed storage shelf require specific conditions
+Fully managed Windows File System crafted for Windows Specific Workloads
+Built on Windows Server
+
+- Elastic Disaster Recovery
+Backup generator for pizza kitchen
+Minimize downtime and Dataloss, Quick recovery Times and. ost Effective Solution
+Pay only for servers that we are replicating 
+Scenarios where Operation disruptions can be costly, Elastic Disaster recoverey proves valuable
+It maintains Business Continuity, Protects data from loss and is flexible and adaptable
+
+
+AMAZON ELASTIC BLOCK STORAGE STORE(EBS)
 
 
 
