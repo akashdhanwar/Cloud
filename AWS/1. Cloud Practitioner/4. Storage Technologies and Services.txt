@@ -141,5 +141,13 @@ It maintains Business Continuity, Protects data from loss and is flexible and ad
 
 AMAZON ELASTIC BLOCK STORAGE STORE(EBS)
 
+- EBS Features
+- EBS Volume Types
+- Snapshots
+- Exam Tips 
+
+- EBS Features
+Persistent Storage - 
+
 
 
