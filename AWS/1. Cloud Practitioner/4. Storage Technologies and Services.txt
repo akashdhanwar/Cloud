@@ -177,8 +177,34 @@ AWS STORAGE GATEWAY
 - Key Benefits
 - Use Cases
 - Types
-- Exam Tips
 
+- What is Storage Gateway
+It is a Delivery Scooter from local storage to cloud
+Connects with onsite data storage to aws cloud services and ensures data is efficiently and securely transported to the cloud
 
+- Key Benefits
+Cost Effective - Reduces on premesis storage infrastructure
+Secure - Data encryption for safe transfer and storage
+Seamless Integration - Integrates with existing applications
+
+- Use Cases
+Many companies have existing infrastructure and datacentres at remote offices and edge locations, but want to take advantages of cloud services
+Data Backup, Disaster Recovery, Data Processing in Aws
+
+- Types
+S3 File Gateway - Helps to store files directly on S3. Keeps your data in cloud native formats
+Volume Gateway - Provides block storage volumes backed by S3, Offers stored(for entire datasets) and cached volumes
+Tape Gateway - For archieving data, For data that we do not need everyday but is important to keep for long term retention
+FSx File Gateway - Extends onpremises file systems to FSx for Windows in aws cloud
+
+OVERVIEW OF AWS BACKUP
+
+- What is AWS Backup
+- Core Features
+- Use Cases
+- Recovery
+
+- What is AWS Backup
+It is like recipe book, if something gets wrong we can look into it
 
 
