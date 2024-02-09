@@ -108,3 +108,19 @@ Retrieval can take upto 12 hrs
 Archieve Storage, Slow
 
 
+DEMO: EXPLORING STORAGE SERVICES: S3 IN ACTION
+
+- Key Concepts
+- Demo 
+
+- Concepts 
+Sacurity including bucket policies, IAM policies and encryption
+
+- Demo
+Bucket name should be globally unique, Default permission is to block all access, Encryption is by default
+Properties contains versioning, Permission contains policies, Management contains lifecycle policy to move object between storage classes through lifecycle rule actions
+
+
+
+
+
