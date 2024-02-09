@@ -75,9 +75,36 @@ EXPLORING S3 STORAGE CLASSES
 - Intelligent-Tiering
 - Infrequent Access
 - Glacier
-- Exam Tips
 
+Storage classes are objects defined for specific needs
 
-- Standard
+- S3 Standard
+It is primary shelf of refrigerator used for frequently asked data 
+High Throughput(it cam scale automatocally), Low Latency
+
+- S3 Intelligent Tiering
+Dynamic shelf of refrigerator, used for unpredictable data 
+Automatically moves data, Savings
+
+- S3 Standard Infrequent Access
+Accessed less frequenty but required Rapid Access when needed
+It has a retrieval fee
+S3 One Zone Infrequent Access - Special Storage available in only one AZ
+Cost effective but less durable. Used for secondary backup or for data that is easily reproducable 
+
+- S3 Glacier Instant Retrieval
+Top door in fridger, quickly access important ingredients that are not used often 
+Designed for immediate access to archieve data as it is a archieve storage class that offers lowest cost storage for long lived data that is rarely accessed and require Instant retrieval in ms
+Archieve Storage, Instant Retrieval
+
+- S3 Glacier Flexible Retrieval
+Another apartment in deep freezer that is not active as much 
+Accessed one to two times a year
+Achieve Storage, Not Immediate
+
+- S3 Glacier Deep Archive
+Bottom part of deep freezer, most effective for long time archieval, designed for customers in highly regulated industries like healthcare and public sectors that retain datasets from 7 to 10 years or longer to meet regutory compliance.
+Retrieval can take upto 12 hrs
+Archieve Storage, Slow
 
 
