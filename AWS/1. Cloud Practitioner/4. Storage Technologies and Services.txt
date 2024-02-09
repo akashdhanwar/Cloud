@@ -144,10 +144,41 @@ AMAZON ELASTIC BLOCK STORAGE STORE(EBS)
 - EBS Features
 - EBS Volume Types
 - Snapshots
-- Exam Tips 
 
 - EBS Features
-Persistent Storage - 
+Persistent Storage - Data remains intact after stopping EC2 instance.
+High Availability and Durability - Data is automatically replicated within its availability zone
+Scalable - Volume can be resized as data grows
+Encrypted - Data at rest and in transit is secure
+Snapshot - Can take backups and also ise these backups to create new volumes
+
+- EBS Volume Types 
+SSD Backed Volumes - Solid state drive, Faster, More Expensive, Ideal for high IOPS(no of read write operations per second)
+HDD Backed Volumes - Hard disk drive, Slower, Less Expensive, Ideal for throughput(measurement of bits or bytes per second) tasks
+General Purpose SSD vs Provisioned IOPS SSD -
+General - gp3 and gp2, Low latency interactive applications, 16000 max IOPS, Multi attach not supported
+Provisioned - io2, io1, io2 block express. High IOPS, 64000 to 256000, Multi attach supported
+Throughput Optimized HDD vs Cold HDD volumes -
+Throughput - st1, Big Data, 500 Max IOPS, 500 MiB/s max throughput
+Cold - sc1, Lower storage cost, 250, 250 MiB/s max throughput
+
+- Snapshots
+Capture perfect moment, preseve it and use it in future
+Incremental Backup - Each snapshot only saves changes sunce the last one
+Restore and Launch - Use snapshots to quickly restore a volume
+Share or Sell - Snapshots can be shared with other AWS accounts
+Cost Effective - Snapshots only store block level changes
+Cross region replication - Snapshots can be copied across AWS regions
+
+
+AWS STORAGE GATEWAY
+
+- What is Storage Gateway
+- Key Benefits
+- Use Cases
+- Types
+- Exam Tips
+
 
 
 
