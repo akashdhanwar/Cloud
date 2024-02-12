@@ -206,5 +206,50 @@ OVERVIEW OF AWS BACKUP
 
 - What is AWS Backup
 It is like recipe book, if something gets wrong we can look into it
+It backs up resources like EC3 instances, EBS volumes, RDB service Databases, DynamoDB Tables, EFS file systems, FSx File systems, Storage Gateway Volumes
+
+- Key Features
+Centralized Backup Management - Simplifies overseeing backups
+Automated Backup Scheduling - Provides policies you define 
+Encryption and Compliance - Keeps data secure
+Cross Region and Account Backup - Enhances disaster recovery
+
+- Use Cases
+Cloud-Native Backups
+Hybrid Data Protection
+Data Protection Compliance
+
+- Recovery
+Minimum downtime and maximum data integrity
+
+
+STORAGE EXAM TIPS
+
+- EC2 Storage Options
+EBS provides persistent block storage, create backups, snapshots
+EFS is a Pizza conveyer system that can serve many kitchens. Scales on demand without disrupting applications
+Instance Store is like temp prep table. Data is lost if the instance is stopped or terminated
+
+- Amazon S3
+Durability, Scalable, Security and Versioning, Life cycle policies.
+
+- S3 Storage classes
+Standard, Intelligent Tiering, Standard Infrequent Access, One zone infrequent access, Glacier Instant Retrieval, Glacier Fexible Retrieval, Glacier deep Archieve
+
+- Additional Storage 
+FSx, Elastic Disaster Recovery
+
+- EBS volume types
+SSD and HDD
+
+- Storage Gateway 
+File, Volume, Tape, FSx file gateway
+
+- Aws Backup
+
+
+STORAGE TECHNOLOGY AND SERVICES QUIZ
+
+- 
 
 
