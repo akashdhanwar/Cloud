@@ -250,6 +250,15 @@ File, Volume, Tape, FSx file gateway
 
 STORAGE TECHNOLOGY AND SERVICES QUIZ
 
-- 
+- What is Amazon FSx primarily used for ?    - Provide fully managed third party file systems
+- Which S3 storage class is designed for data that is accessed less frequently, but requires rapid access when needed ?   - Standard Infrequent Aceess
+- Which storage class should you choose for data that is access infrequently, but must be retained and accessed quickly when needed, at a lower cost ?   - Standard Infrequent Access
+- What is a key feature of Amazon S3 ?   - Stores object in the cloud with high durability
+- Which of the following is a primary use case for AWS backup ?   - Automating and centralizing backups across aws services
+- Which of the following is a durable, block level storage solution designed for use with amazon EC2 instance ?   - Amazon EBS
+- Whichb type of Amazon EBS volume offers the highest performance for mission-critical low-latency or high-throughput workloads ?   - Provisioned IOPS SSD
+- What does aws storage gateways tape gateway offer ?   - Archiving data as virtual tapes
+- Which EC2 storage option is best suited for temporary storage of information that changes frequently, such as buffers, caches or scratch data ?   - Instance Store
+- Which featire of S3 allows you to manage user access to specific bucket and objects ?   - Bucket Policies
 
 
