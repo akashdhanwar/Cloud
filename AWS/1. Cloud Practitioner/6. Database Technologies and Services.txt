@@ -1,0 +1,93 @@
+DATABASES: THE BIGGER PICTURE
+
+- Types of databases
+Amazon RDS      -   Organised
+NoSQL           -   Dynamo DB 
+In Memory       -   MemoryDB
+GraphDatabase   -   Amazon Neptune 
+
+- Relational Database(Structured)
+Organised in rows and columns
+Uses    -   E-commerce, Mobile backends, Healthcare Applications
+
+- NoSQL Databases(Flexible)
+Key Value pairs.
+Having variety of bins in kitchen. Each bin has a label/key. Inside each bin are ingridients.
+Example -   Amazon DynamoDB
+
+- InMemory Databases(Speed)
+Special counter in kichen for most used ingridients. Stores in computer main memory/RAM 
+Example -   Amazon ElasticCache, Amazon MemoryDB for Redis
+
+- Graph Databases
+Connected to one other
+Uses    -   Fraud Detection, Recommendation Systems, Drug Discovery
+Example -   Amazon Neptune
+___________________________________________________________________________________________________________________
+
+UNDERSTANDING AWS DATABSE MIGRATION SERVICES(DMS) 
+
+- AWS Database Migration Services
+Can handle Oracle, MySQK, PostgresSQL and Microsoft SQL Server 
+Simple to Use           -   No drivers or changes to the source database needed
+Minimal Downtime        -   Continuously replicate data during migration, keeping the source database operational 
+Reliable                -   Self-healing with constant monitoring 
+Database Consolidation  -   Consolidate multiple databases into one
+Use Cases   -   
+    Migration Between Database Platforms
+    Consolidating Multiple Databases into a Single Database
+    Continuous Data Replication
+    Migrating Data to the CLoud for Analytics
+    Data Center Decommission
+
+- AWS Schema Conversion Tool(SCT)
+Converts the db schema(blueprint) from source to target database to make amazon comaptible
+Schema and Code Conversion      -   Automatically converts source database schema for AWS compatibility
+Handling Conversion Challenges  -   Provides solutions for potential migration challenges 
+___________________________________________________________________________________________________________________
+
+AMAZON DYNAMO DB
+
+DynamoDB is fully managed NoSQL service
+
+- Features
+Performance At Scale    -   Mantains consistent, single-digit milliseconds response times
+Fully Managed           -   No server management or maintainence required
+Built-in Security       -   Data is encrypted at rest and in transit 
+Backup and Restore      -   Supports on-demand backup and continuous backups 
+
+- Use Cases
+Web and Mobile Applications
+Gaming Applications 
+IoT Applications 
+E-Commerce Platforms
+___________________________________________________________________________________________________________________
+
+OVERVIEW OF MEMEORY-BASED DATABASES IN AWS
+
+Amazon MemoryDB for Redis 
+Performance     -   Delivers data with ultra-fast response time
+Data Durability -   Automatically replicates data across multiple AWS Availability Zones
+
+- Use Cases 
+Caching for Web Applications
+Real-Time Analytics
+Session Store for Applications
+Leaderboards and Gamings 
+Geospatial Data Processing 
+___________________________________________________________________________________________________________________
+
+DATABASE QUIZ 
+
+- Which AWS service is a fully managed graph database ?                                                                 -   Amazon Neptune 
+- For which use case is AMazon MemoryDB most suitable ?                                                                 -   Real-time analytics and caching 
+- What features distinguishes Amazon RDS from other services ?                                                          -   It is a managed RDS 
+- Amazon RDS differs from Amazon DynamoDB in that RDS:                                                                  -   Provides managed RDS 
+- Which AWS service offers an in-memory databse ?                                                                       -   Amazon MemoryDB for Redis
+- What is a key advantage of using Amazon DynamoDB for web applications ?                                               -   Low latency data access
+- What is the primary use of AWS Database Migration Service (DMS) ?                                                     -   To migrate databases with minimal downtime 
+- AWS SCT is primarily used for what purpose ?                                                                          -   Schema Conversion in database migration 
+- Which feature is unique to AWS Database Migration Service(DMS) ?                                                      -   Continuous data replication during migration 
+- Amazon DynamoDB is best suited fir which scenario ?                                                                   -   Unstructured data with flexible data models
+
+

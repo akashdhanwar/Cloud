@@ -1,1 +1,38 @@
+CONTENT DELIVERY: THE BIGGER PICTURE
 
+- What is CDN 
+Global network of interconnected servers that ensures your website content reaches users easily
+
+- Benefits
+Speed           -   Removes the complexity of deploying and maintaining file systems 
+Reliability     -   Automatically cales on demand without disrupting applications
+Global reach    -   Multiple EC2 instances can access an EFS system simultaneously
+
+AWS version of CDN  -   Amazon CloudFront
+Delivers videos, applications or data
+Works by caching your content in multiple data centres known as Edge Locations
+Security    -   Integrates with AWS Shield and AWS Web Application Firewall
+Optimized other Services    -   Such as S3, EC2 and Route 53
+Real world applications     -   Streaming Videos, Secure Transactions, Traffic Spikes, Detailed Analytics
+___________________________________________________________________________________________________________________
+
+AWS GLOBAL ACCELERATOR
+
+It is a Networking Service that sends your user traffic through AWS Global Network Infrastructure 
+It is a express lane in CDN that bypass the regular traffic and gets important pizzas delivered quicker
+Uses Caching to find optimal path to nearest regional endpoint
+
+- Benefits
+Improved Performance                -   Increases throughput up to 60%
+Simplified Traffic Management       -   User can access your application endpoints through static IP addresses
+Security and Reliability            -   DDoS Resiliency, Automatic Reroute
+Consistent Global User Experience   -   Intelligent routing sends user traffic to the endpoint that provides the best performance
+
+- Use Case
+Global User Base, High Traffic Events, Multi-Region applications, Latency-Sensitive Applications
+___________________________________________________________________________________________________________________
+
+NETWORKING: THE BIGGER PICTURE 
+
+Amazon VPC 
+Secure Isolated section of a cloud kitchen

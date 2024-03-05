@@ -1,0 +1,18 @@
+WHAT IS CI/CD 
+
+- What is CI/CD 
+- Benefits 
+
+- What is CI/CD
+It is a Software development best practice
+The idea is to Automate everything. Example - Code integration, build, test and deployment 
+It makes change easy by Applying multiple small changes each day
+
+- Benefits
+Automation                          -   Fast, Repeatable and scalable
+Manual Effort Avoided               -   Slow, Error prone, inconsistent Effort Avoided
+Small Changes Applied frequently    -   Catch bugs while they are small and simple to fix
+___________________________________________________________________________________________________________________
+
+AWS DEPLOYMENT TOOLS 
+
