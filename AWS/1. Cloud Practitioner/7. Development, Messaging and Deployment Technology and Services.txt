@@ -16,3 +16,80 @@ ________________________________________________________________________________
 
 AWS DEPLOYMENT TOOLS 
 
+- AWS CodeCommit
+- AWS CodeBuild
+- AWS CodeDeploy
+- AWS CodePipeline
+- Exam Tips
+
+- AWS CodeCommit(For Merging)
+Source Control service enabling terms to collaborate on code, html pages, scripts, images and binaries.
+It is a central code repository just like Private git repo in the cloud
+
+- AWS CodeBuild(For Preparing)
+Compiles source code, runs tests and produces packages that are ready to deploy
+It takes code from CodeCommit and use code to build deployable artifacts.
+Artifacts like packages/docker images   -   .net core package, docker image, Node.js package 
+
+- AWS CodeDeploy(For Deployment)
+Automated Deploy service to deploy sofware to EC2 instances/ On Premises systems/ Lambda
+Release features, avoids downtime and reduces risk with process 
+
+- AWS CodePipeline(Overall Process)
+End-to-end solution, build, test and deploy your application every time there is a code change
+Automated CI/CD pipeline 
+___________________________________________________________________________________________________________________
+
+DEMO: WORKING WITH AWS CLOUDSHELL AND THE AWS CLI 
+
+Scenario
+You have been tasked with creating an S3 bucket and uploading a file. 
+You would like to accomplish this using the AWS CLI running in the CloudShell instead of using the console 
+
+1   -   Launch the CloudShell           -   Console like Icon is on top bar
+                                        -   CloudShell is a browser based shell with CLI pre-installed
+2   -   Use the AWS CLI                 -   'aws --version'
+                                        -   'aws s3 mb s3://BucketName' (Make Bucket)
+                                        -   'aws s3 ls' (List buckets)
+                                        -   'echo "My new File" >> fileName.txt'
+                                        -   'ls'
+                                        -   'cat fileName.txt'
+                                        -   'aws s3 cp fileName.txt s3://BucketName' (Copy)
+                                        -   'aws s3 ls s3://BucketName'
+3   -   Review the CLI Documentation    -   'aws s3 mb help'
+                                        -   https://docs.aws.amazon.com/cli/latest
+___________________________________________________________________________________________________________________
+
+DEMO: USING AWS CLOUD9
+
+Scenario 
+You are a developer.
+You need an IDE platform that lets you write, run and debug your code
+That supports the most popular programming languages like JS, Python, Ruby, C++ and lets you run AWS CLI commands
+
+Cloud9 is an integrated IDE that we can use inside of our browser. It comes with AWS CLI
+
+1   -   Create a Cloud9 environment     -   Search for Cloud9 in Management Console
+                                        -   Create an environment(My-IDE), New EC2, t3.small, Linux 2, Create
+                                        -   We can open it through Open link and it will open IDE
+2   -   Explore Cloud9 Code Editor
+3   -   Run some AWS CLI commands       -   Create a S3 bucket and copy file to the bucket from IDE 
+___________________________________________________________________________________________________________________
+
+UNDERSTANDING AWS CODE ARTIFACT
+
+It is an Artifact repository It makes it easy for developers to find the softare packages they need
+A package is a bundle of software
+Includes open-source and in-house developed software
+It lets developer to securely store, publish and share softare packages that we need for software development process
+Example -   Maven, NPM, Python packages
+
+Scenario    -   Multiple Development Teams
+Enables developers to get correct version of software packages like npm 
+
+Artifacts includes Documentation, Compiled applications, Deployable packages and Libraries
+___________________________________________________________________________________________________________________
+
+DECOUPLING APPLICATION COMPONENTS
+
+
