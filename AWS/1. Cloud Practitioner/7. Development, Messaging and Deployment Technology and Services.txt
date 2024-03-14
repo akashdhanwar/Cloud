@@ -93,3 +93,20 @@ ________________________________________________________________________________
 DECOUPLING APPLICATION COMPONENTS
 
 
+
+
+
+
+
+On console, search SNS 
+Create a Topic, default settings
+Subscribe to Topic. Create a subscription in Topic. Select topic, select protocol as email, enter email address, Create it
+Confirm subscription from email inbox
+Test Topic subscription. Search EC2 > Instances > select instance and copy instance id. Stop the instance.
+Search Cloudwatch, create alarm button, create alarm, select metric and paste the instance id, and search stashcheck, select failed for instance and change the period to 1 min, greater than or equal to 1, treat missing data as bad, next
+Selct Topic, add notification > select ok. Add another notification insufficient data, Name alarm, create
+
+
+
+
+
