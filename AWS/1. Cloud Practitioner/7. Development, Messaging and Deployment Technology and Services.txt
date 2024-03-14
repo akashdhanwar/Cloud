@@ -214,7 +214,32 @@ Create a Stack - with new resources standard > Upload template file > Stack name
 Console > DynamoDB > Tables > Inventory table is there
 _____________
 
+WHAT IS AWS ELASTIC BEANSTALK
 
+Example - Developer busy, focus on code and not infra. Infra should be resilient, load balanced and scalable
+
+Elastic BeanStalk provisions infra needed to run application in production including installation and management of application stack needed to run our application
+Capacity provisioning, Load balancing, Auto scaling and Application health monitoring using cloudwatch
+
+It allows developers to focus on code
+No need to worry about configuring the underlying infra needed to run the application 
+Get your application to market faster
+Fastest and simplest way to
+deploy your application in AWS 
+Also handles patching and updates
+
+Deploys and scales your web applications including the web application server platform
+It provisions AWS resources for you eg - EC2, RDS, S3, Elastic load balancers, Auto Scaling Groups, etc
+Supports programming languages like .net, php, java, nodejs, tomcat, IIS, nginx, docker
+OS and application server updates monitoring metrics, and health checks are all included
+____________
+
+DEMO: DEPLOYING AN APPLICATION USING ELASTIC BEANSTALK
+
+Scenario
+You have developed an application in PHP.
+You would like to run you application in AWS, however you do not want to provision, configure or manage any EC2 instances yourself. 
+You have decided to deploy your application using Elastic BeanStalk
 
 
 
