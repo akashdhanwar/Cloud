@@ -193,5 +193,28 @@ _________
 
 DEPLOYING INFRASTRUCTURE AS CODE WITH AWS CLOUDFORMATION 
 
-IaaC - 
+IaaC - Provides Environment like combination of S3, Lambda, DynamoDB, SQS, SNS, EC2
+- CloudFormation
+Manage, Configure and Provision your AWS infrastructure as a code
+Resources defined in a CloudFormation template(yaml/json) > CloudFormation interprets the template and makes API calls to create the resources you have defined. The result is known as CloudFormation stack
+It lets us deploy AWS resources using an IaaS approach
+
+- Uses
+Consistent - Infrastructure is provisioned consistently with fewer mistakes
+Quick and Efficient - Less time and effort than configuring things manually
+Free to use - You are only charged for the AWS resources you create using CloudFormation
+_________
+
+CREATE A DYNAMODB TABLE USING CLOUDFORMATION 
+
+Template - https://guthub.com/linuxacademy/content-aws-certified-cloud-practitioner/blob/main/labs/3vreate-dynamodb-table-using-cloudformation/acg-dynamodb-template.yaml
+
+Console > CloudFormation
+Create a Stack - with new resources standard > Upload template file > Stack name > Create > Create complete
+Console > DynamoDB > Tables > Inventory table is there
+_____________
+
+
+
+
 
