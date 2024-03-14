@@ -241,5 +241,21 @@ You have developed an application in PHP.
 You would like to run you application in AWS, however you do not want to provision, configure or manage any EC2 instances yourself. 
 You have decided to deploy your application using Elastic BeanStalk
 
+- Create a service rooe for Elastic Beanstalk 
+- Create an EC2 instance role formElastic BeanStalk
+- Upload the provided code 
+https://github.com/pluralsight-cloud/AWS-Certified-Cloud-Practitioner-CCP-CLF-C02
+
+Console > IAM > Roles > Create > Aws service, search elastic beanstalk customizable > Role name > Create
+Create role > Aws service > search EC2 > permission awsElasticBeanstalkReadOnly > Role name > Create
+Console > Elastic Beanstalk > Create application > app name > Platform as php > Upload the zip file > Use existing service role > Select ec2 role > Health reporting basic > manage platform update disable > Submit
+Clico the domain and it will take to website
+
+It deploys and scales your web applications including the application server platform 
+Provisions the AWS resources for you eg - EC2, S3, RDS, Elastic Load Balancers, Auto Scaling Groups, etc
+___________
+
+DEMO: USING AWS X-RAY TO IDENTIFY PERFORMANCE ISSUES
+
 
 
