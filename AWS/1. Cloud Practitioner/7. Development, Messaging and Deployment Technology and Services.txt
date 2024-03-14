@@ -170,5 +170,28 @@ _________
 
 UNDERSTANDING STEP FUNCTIONS
 
+Example - Store Checkout Process
+Check Inventory > Hold Product > Bill Customer
+What if payment failed > Remove Hold
+Each process is handled by lambda function. we can use step function to manage logic of lambda functions 
+It can handle failed scenarios to send email
 
+It provides a Visual Interface 
+Build and run serverless applications as a series of steps
+Each step in your application executed in order, as defined by your business logic
+The output of one step may act as an input to the next 
+
+Parallel steps
+Start > Process photo > Extracts metadata, Resize image and Facial recognition > Loaded in database > End
+Each process can be handled by different lambda functions and end to end by step functions
+
+Uses 
+Visualise - Great way to visualise your serverless application 
+Automate - Step Functions automatically trigger and track each step
+Logging - Step functions log the state of each step, so you can track what went wrong and where
+_________
+
+DEPLOYING INFRASTRUCTURE AS CODE WITH AWS CLOUDFORMATION 
+
+IaaC - 
 
