@@ -92,4 +92,33 @@ ________________________________________________________________________________
 
 DECOUPLING APPLICATION COMPONENTS
 
+- Tight Coupling
+Monolithic Application where all components are dependent on each other
+Coupling means dependencies between components 
+Problem occurs when one part of the system is faster or slower than another. 
+One failed component can bring the whole system down 
+
+- Loose Coupling
+Microservice based architectures where components operate independently
+One component doesn't need to wait until another component has completed its work before moving on to the next task
+Data and messages are moved between components of the application
+A failed or slow component doesn't affect other parts of the system 
+
+Integration Approach
+- Queues            -   SQS(Simple Queue Service)(For loose coupling)
+- Notifications     -   SNS(Simple Notification Service)
+- Events            -   EventBridge
+___________________________________________________________________________________________________________________
+
+INTRODUCING AMAON SIMPLE NOTIFICATION SERVICE(SNS)
+
+Set up, operate and send notifications(SMS text message or email)
+Messages sent from an application can be immediately delivered to subscribers or other applications
+SNS uses a Pub-Sub Model(Publish and Subscribe)
+Applications publish/push messages to a Topic. Subscribers recieve messages from the Topic. 
+Topic is simply an access point allowing recipients to subscribe and recieve the identical copy of the same notification
+___________________________________________________________________________________________________________________
+
+CREATE AND SUBSCRIBE TO AN AWS SNS TOPIC 
+
 
