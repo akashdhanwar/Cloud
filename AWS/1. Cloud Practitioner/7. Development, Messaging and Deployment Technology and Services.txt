@@ -121,12 +121,6 @@ ________________________________________________________________________________
 
 CREATE AND SUBSCRIBE TO AN AWS SNS TOPIC 
 
-
-
-
-
-
-
 On console, search SNS 
 Create a Topic, default settings
 Subscribe to Topic. Create a subscription in Topic. Select topic, select protocol as email, enter email address, Create it
@@ -134,7 +128,7 @@ Confirm subscription from email inbox
 Test Topic subscription. Search EC2 > Instances > select instance and copy instance id. Stop the instance.
 Search Cloudwatch, create alarm button, create alarm, select metric and paste the instance id, select preinstance metrics, and search failed statuacheckinstance and change the period to 1 min, greater than or equal to 1, treat missing data as bad, next
 Selct Topic, add notification > select ok. Add another notification insufficient data, Name alarm, create
-____
+___________________________________________________________________________________________________________________
 
 INTRODUCING SIMPLE QUEUE SERVICE (SQS)
 
@@ -146,7 +140,7 @@ Guaranteed to be processed at least once
 Example - Money Transfer Application
 SQS improves performance and the ability to scale and support millions of concurrent requests
 SQS is a distributed message queueing system, allows us to decouple the components of an application so that they are independent 
-_____
+___________________________________________________________________________________________________________________
 
 STANDARD AND FIFO QUEUES
 
@@ -158,7 +152,7 @@ Occasionally more than one copy of a message might be delivered out of order
 - SQS FIFO Queues
 Order in which messages are sent and received is strictly preserved
 Exactly one processing means duplicates are not introduced
-______
+___________________________________________________________________________________________________________________
 
 SHORT POLLING VS LONG POLLING
 
@@ -169,7 +163,7 @@ Returns a response immediately even if the message queue being polled is empty
 Periodically polls the queue
 The queue doesn't respond until a message arrives, or the long poll times out
 Fewer empty responses, hence saves money
-_______
+___________________________________________________________________________________________________________________
 
 WHAT IS AMAZON SIMPLE EMAIL SERVICE (SES)
 
@@ -178,7 +172,7 @@ Example - Order confirmation, Market campaign with details of new launches, soec
 Send emails in bulk
 Track open or click-through rates
 Understand the effectiveness of your campaign
-_______
+___________________________________________________________________________________________________________________
 
 INTRODUCING AMAZON EVENTBRIDGE
 
@@ -195,7 +189,7 @@ This triggers a rule that invokes an action to send an email using SNS
 It can also be used to handle scheduled events
 EventBridge rules that run on a schedule
 We can set a rule to run once an hour or day or At the same time on a specfic day, week or month 
-_________
+___________________________________________________________________________________________________________________
 
 UNDERSTANDING STEP FUNCTIONS
 
@@ -218,7 +212,7 @@ Uses
 Visualise - Great way to visualise your serverless application 
 Automate - Step Functions automatically trigger and track each step
 Logging - Step functions log the state of each step, so you can track what went wrong and where
-_________
+___________________________________________________________________________________________________________________
 
 DEPLOYING INFRASTRUCTURE AS CODE WITH AWS CLOUDFORMATION 
 
@@ -232,7 +226,7 @@ It lets us deploy AWS resources using an IaaS approach
 Consistent - Infrastructure is provisioned consistently with fewer mistakes
 Quick and Efficient - Less time and effort than configuring things manually
 Free to use - You are only charged for the AWS resources you create using CloudFormation
-_________
+___________________________________________________________________________________________________________________
 
 CREATE A DYNAMODB TABLE USING CLOUDFORMATION 
 
@@ -241,7 +235,7 @@ Template - https://guthub.com/linuxacademy/content-aws-certified-cloud-practitio
 Console > CloudFormation
 Create a Stack - with new resources standard > Upload template file > Stack name > Create > Create complete
 Console > DynamoDB > Tables > Inventory table is there
-_____________
+___________________________________________________________________________________________________________________
 
 WHAT IS AWS ELASTIC BEANSTALK
 
@@ -261,7 +255,7 @@ Deploys and scales your web applications including the web application server pl
 It provisions AWS resources for you eg - EC2, RDS, S3, Elastic load balancers, Auto Scaling Groups, etc
 Supports programming languages like .net, php, java, nodejs, tomcat, IIS, nginx, docker
 OS and application server updates monitoring metrics, and health checks are all included
-____________
+___________________________________________________________________________________________________________________
 
 DEMO: DEPLOYING AN APPLICATION USING ELASTIC BEANSTALK
 
@@ -282,7 +276,7 @@ Clico the domain and it will take to website
 
 It deploys and scales your web applications including the application server platform 
 Provisions the AWS resources for you eg - EC2, S3, RDS, Elastic Load Balancers, Auto Scaling Groups, etc
-___________
+___________________________________________________________________________________________________________________
 
 DEMO: USING AWS X-RAY TO IDENTIFY PERFORMANCE ISSUES
 
