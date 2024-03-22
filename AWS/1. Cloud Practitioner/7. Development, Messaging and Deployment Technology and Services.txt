@@ -280,5 +280,53 @@ ________________________________________________________________________________
 
 DEMO: USING AWS X-RAY TO IDENTIFY PERFORMANCE ISSUES
 
+- X-Ray
+X-Ray is a tool that help developers analyze and debug distributed applications
+Allows us to troubleshoot the root cause of performance issues and errors
+Provides a visualization of your application's underlying components
+It provides an end-to-end view of reuests as they travel through your application
+This information can be used to troubleshoot connectivity and performance issues
+
+- Scenario
+You would like to understand how X-Ray can be used to monitor performance and health of a distributed application
+You decide to install a sample application that uses several AWS services
+
+1   -   Install a sample Tic Tac Toe application using CloudFormation
+2   -   Play a game of Tic Tac Toe 
+3   -   Use X-Ray to view the application performance and health
+
+Search X-Ray > Setup demo app through CloudFormation
+Select Outputs tab > Open LoadBalancer url > Play game > View Service map > Check legend
+___________________________________________________________________________________________________________________
+
+DEVELOPMENT, MESSAGING AND DEVELOPMENT EXAM TIPS 
+
+CI      -   Integrating or merging small code of changes frequently - at least once per day 
+CD      -   Automating the build, test and deployment functions. Bugs are caught early
+
+Deployment Tools 
+CodeCommit  -   Source control service enabling teams to collaborate on code, html, scripts, images and binaries
+CodeBuild   -   Compiles source code, runs tests and produces packages that are ready to deploy 
+CodeDeploy  -   Automates code deployment, eg - to EC2, Lambda and on-premises servers
+CodePipeline-   End-to-end solution, build test and deploy your application every time there is a code change 
+
+AWS CloudShell  -   Browser based shell with the AWS CLI pre-installed 
+AWS CLI         -   A command line tool used to manage AWS services
+
+AWS Cloud9          -   Browser based IDE that lets developers write, run and debug code
+Pre-installed Tools -   AWS CLI support for the most popular programming languages like JS, Python, Ruby and C++
+
+CodeArtifact    -   It is an artifact repository that makes it easy for developers to find the software versions they need 
+                    Artifacts like Documentation, compiled applications, deployable packages and libraries 
+                    Third party or in-house developed 
+                    Developers can find approved packages and can also publish their own
+
+Coupling        -   Interdependencies or connections between components of a system 
+Tight Coupling  -   Different parts of the system are highly dependent on each other. If one part fails, it could bring the whole system down 
+Loose Coupling  -   Decoupled components can be connected to each other but are not dependent on each other 
+
+SNS is a service that allows us to send/push notifications eg - email, SMS text messages 
+It uses a Pub-Sub model. Subscribers must subscribe to a Topic 
+A Topic is an access point, allowing subscribers to receive Notifications
 
 
