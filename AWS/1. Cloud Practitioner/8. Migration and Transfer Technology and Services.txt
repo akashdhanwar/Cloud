@@ -1,0 +1,116 @@
+INTRODUCING THE AWS SNOW FAMILY 
+Migrating Terrabytes or Perrabytes of Data 
+Data Transfer Solution 
+Physical devices
+
+- SnowBall
+Large amount of data that needs to migrate to AWS(10TB or more)
+
+- SnowBall Edge
+Atleast 10TB of data and we need local compute 
+
+- SnowMobile
+Shipping Container for more than 10PB of data 
+
+- SnowCone 
+Small, Portable, Military grade device with 8TB or 14TB SSD storage weights under 5 pounds 
+___________________________________________________________________________________________________________________
+
+IDENTIFYING DATABASE MIGRATION TOOLS 
+
+- AWS DMS(Database Migration Service)
+Migrate database and analytics workloads to AWS 
+Workloads may be on premise, on EC2 or in RDS 
+Oracle to AWS RDS for Oracle
+
+- AWS Schema Conversion Tool (SCT)
+One type of DB into another type of DB
+Oracle to AWS Aurora for MySQL 
+MySQL to RDS for MySQL 
+SQL Server to Aurora for PostGreSQL
+MongoDB to DocumentDB 
+Oracle to RedShift 
+___________________________________________________________________________________________________________________
+
+EXPLORING THE AWS TRANSFER FAMILY 
+
+File Transfer Solution it is 
+Transfer some files from partners to you and save them to AWS Storage 
+B2B file transfer using protocols like SFTP, AS2, FTPS and FTP
+Files are transferred into and out of AWS storage like S3 or EFS 
+
+AWS does heavy lifting for us 
+Highly available and scalable 
+Users can use existing tools like WinSCP, FileZilla, CyberDuck, IFTP and OpenSSH 
+___________________________________________________________________________________________________________________
+
+AWS DATASYNC 
+
+500TB data to transfer over internet to AWS S3, EFS, FSx 
+Encrypts data 
+
+High data throughput
+Automated
+NFS, SMB shared file systems, object stores
+Pay-per-GB transfer 
+
+Securely migrate all data into AWS 
+Cost effectively replicate your data using AWS storage 
+Archieving historical data to low cost AWS storage 
+Support hybrid or multi-cloud workflows 
+___________________________________________________________________________________________________________________
+
+UNDERSTANDING AWS APPLICATION DISCOVERY SERVICE 
+
+Gathers data and sent to aws and stored in AWS Migration hub 
+Data of type    -   Server Inventory, configuration data, OS version, capacity utilization, Inbound and outbound network connections
+Collects data using Discovery agent 
+
+Gathers Data, Uses an Agent, Agentless in VmWare, Data of type as above, Migration Plan
+___________________________________________________________________________________________________________________
+
+INTRODUCING AWS APPLICATION MIGRATION SERVICE 
+
+Automated Lift and Shift service    -   Migrates application to AWS without modifying them 
+AWS Replication Agent is installed on the source server and replicates to a new server in AWS 
+Migrate Applications running on physical or virtual servers, other cloud providers and other AWS account or region
+
+Migrate Application to AWS from VMWare or Physical server 
+Converts servers to run on AWS 
+Store Replication Agent, Continuous replication to AWS 
+
+Automated
+Reduces manual effort 
+Same process can be used for range of OS 
+Windows and Linux are supported 
+___________________________________________________________________________________________________________________
+
+DISCOVERING AWS MIGRATION HUB 
+
+Central location to gather application and server inventory information
+Enables you to assess, plan and track migrations to AWS 
+Logically group service together for migration 
+A central place to manage the migration of applications and data into AWS 
+
+Integrated with other Migration services like Application Discovery and Migration Service, with DMS 
+Make recommendations about modernising applications 
+Replatform java or .net applications to run as docker containers in Elastic Container Service 
+Estimate the cost of running your existing workload on EC2 instances in AWS 
+___________________________________________________________________________________________________________________
+
+QUIZ 
+
+- Physical data transfer solution that is small, portable, military grade, fits in bagpack and could be used upto 10TB                              -   Snowcone 
+- You have a large oracle db running on physicl servers located in your data center. 
+  Which service can be used to migrate this database to run in AWS                                                                                  -   Data Migration Service
+- Your company needs to migrate all applications to AWS. However you currently have no accurate inventory and 
+  nobody has a record of deployed applications, OS versions or networking requirements. Which AWS service can
+  be used to help create an inventory so that you can start planning your migration                                                                 -   Application Discovery Service 
+- You are planning a large migration of 500 physical servers to AWS. Which service can be used to orchestrate and track progress of migration       -   Migration Hub 
+- You have 20PB of data to transfer from legacy application to AWS storage. Which service is designed to migrate data to AWS at PB scale            -   SnowMobile 
+- You need to find a way to allow a third party application to copy files into an S3 bucket that you own. The application
+  uses SFTP to transfer files. Which AWS service would enable you to configure this                                                                 -   Transfer Family 
+- You have a large Oracle db that you would move to AWS. You need to move to PostgreSQL. How to meet this requirement                               -   Schema Conversion Tool 
+- You have 200TB of data stored into data centre that is to be copied to S3. How to move data efficiently                                           -   Snowball 
+- Which service is an automated lift and shift service, used to migrate application running on 
+  physical/virtual servers, other cloud providers or other AWS region/accounts                                                                      -   Application Migration Service
