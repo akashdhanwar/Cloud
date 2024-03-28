@@ -1,0 +1,33 @@
+REDSHIFT AND REDSHIFT SERVERLESS 
+
+- Features
+Data Warehouse                  -   RedShift is a fully managed data warehousing service 
+Massively Parallel Processing   -   Able to run complex queries in parallel 
+Automated data management       -   Data Backup, replication, scaling without downtime
+Designed for OLAP               -   Online Analytical Processing, Great for analytics and reporting
+
+It stores lots of amount of data(in PB)
+Data Lakes integration, Operational Analytics
+
+Suppose we have Distibuted applications like IAM, API Gateway, Kinesis, Lambda, DynamoDB, S3 and SNS
+Each service will omit data, using RedShift we can combine multiple data in one place 
+
+Serverless has no Infra to manage
+___________________________________________________________________________________________________________________
+
+AMAZON KINESIS
+
+Family of services that enables you to collect, process and analyze streaming data in real time 
+Allows us to build custom applications for your own business needs 
+
+Data generated continuously by thousands of data sources that typically send in the data records simultaneously and in small sizes(kb)
+
+- Kinesis Streams
+Stream data and video to allow you to build custom applications that process data in real time
+Kinesis Data Streams    -   Lets you process streaming data 
+Kinesis Video Stream    -   Lets you stream video into AWS for storage and processing 
+___________________________________________________________________________________________________________________
+
+EXPLORING KINESIS DATA FIREHOSE 
+
+
