@@ -30,4 +30,65 @@ ________________________________________________________________________________
 
 EXPLORING KINESIS DATA FIREHOSE 
 
+Allows us to Capture, Transform and load data streams into AWS data stores to enable near real-time analytics with BI tools
+Easy to use     -   Dynamic adjusts resources to handle varying data volumes
+Real-time       -   Processes and delivers data within 60 seconds for timely insights
+Transformation  -   Customize and enhance data with AWS lambda before loading
+Monitoring      -   Integrated Monitoring with Amazon Cloudwatch and automatic error retries
+
+Use cases   -   Real time analytics, Data lake feeding, Log data management, IoT Data integration
+
+Kinesis data Strems capture and store streaming video and data
+Kinesis data Firehose captures, transforms, and loads data continuously into data stores
+___________________________________________________________________________________________________________________
+
+WHAT IS AMAZON ATHENA 
+
+Athena enables us to run standard SQL queries on data stored in S3 
+
+An interactive query service 
+Serverless, nothing to provision, pay per TB scanned 
+No need for complex Extract/Transform/Load(ETL) processes 
+Works directly with data stored on S3
+
+Use Case 
+Query log files stored in S3 
+Analyse AWS Cost and Usage reports
+Generate business reports on data stored in S3 
+Run queries on click stream data 
+
+Interactive Query       -   Athena is a interactive querty service for data in S3 
+Standard SQL            -   Allows you to query data stored in S3 using standard SQL 
+Serverless              -   You dont need to configure any infrastructure to use Athena 
+Use Case                -   Querying log files or generating reports from S3 data
+___________________________________________________________________________________________________________________
+
+DEMO: USING ATHENA TO QUERY DATA 
+
+Scenario    -   You would like to use standard SQL to query a log file that is located in S3 using Athena 
+
+1   -   Configure Cloudtrail create some log data   -   Cloudtrail > Create trail > default > create trail 
+2   -   Create S3 bucket for Athena results         -   S3 > Create bucket > default
+3   -   Query the data using Athena                 -   Athena > Query editor from left menu > Setup query result loc > Settings > Manage > Browse S3 > Save > Editor > CREATE DATABASE athenadb > Run Query 
+
+Populate data in database - https://github.com/pluralsight-cloud/AWS-Certified-Cloud-Practitioner-CCP-CLF-C02 > AthenaDemo > Athena_Query > Replace location of S3
+___________________________________________________________________________________________________________________
+
+INTRODUCING AWS GLUE 
+
+Serverless data preparation and integration service 
+Discovers and catalogs your data 
+Performs ETL Extract, Transforms, Loads 
+
+Data stored in S3, DynamoDB, RDS, Redshift, Kinesis
+Glue discovers, categorise and then transforms data like remove duplicates and loads into other service like RDS, Athena, S3, Redshift 
+
+Use case - Creating a Centralized Data catalog, Joining data for a data warehouse 
+
+Prepares data for analytics and ML 
+It crawls and create a data catalog which is central repository, then extract, transform and load in other services for analytics 
+___________________________________________________________________________________________________________________
+
+EXPLORING AWS DATA EXCHANGE 
+
 
