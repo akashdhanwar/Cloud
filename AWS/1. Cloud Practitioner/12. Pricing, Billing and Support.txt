@@ -1,0 +1,46 @@
+CLOUD COSTS - THE BIGGER PICTURE 
+
+TCO -   Total Cost of Ownership(Not only running cost but also infra cost)
+
+Traditional Data Centre                             |       Cloud
+-   Server(May expand)                              |       -   No Cost(Pay as you go)
+-   Design and Maintain System                      |       -   NA
+-   Utilities                                       |       -   NA
+-   Developers                                      |       -   Developers
+-   Disaster Downtime                               |       -   NA
+
+Six Advantages of Cloud Computing 
+-   Trade fixed expense for variable expense    -   Paying for only what you use 
+-   Benefits from massive economies of scale    
+-   Stop Guessing capacity                      -   Auto Scaling
+-   Increase Speed and Agility                  
+-   Stop spending money maintaining data centers
+-   Go Global in minutes
+
+Fixed vs Variable Expense       -   Fixed expense - fixed servers for peak payload. 
+                                    Variable expense - stop guessing capacity
+
+Economies of Scale              -   AWS aggregates usage from hundreds of thousands of customers
+                                    These economies of scale allow AWS to offer low pay as-you-go prices 
+
+Opportunity Cost and the Cloud  -   Deliver value faster - Focusing on application development rather than infrastructure development can give you a competitive edge 
+                                    Expand Globally      - Quickly span the globe without the need for global work forces and infrastructures
+                                    
+The Well Architected Framework  -   Security                -   Focuses on protection of data, systems and any assets used by your workload(Principle of least privilidge, Securing data at rest, In-transit)
+                                                                Eg - Use CloudTrail to log all actions performed in your account
+                                    Cost Optimization       -   Focuses on ongoing process of maintaining costs in the cloud(Right Sizing, Implementing Lifecycle)
+                                                                Eg - Use S3 Intelligent-Tiering to automatically move data
+                                    Performance Efficiency  -   Focuses on the ability to use computing resources efficiently to meet requirements(Maximizing Resource usage)
+                                                                Eg - Using Lambda to ruun code with zero administration
+                                    Operational Excellence  -   Focuses on creating application that successfully support your workload(Event Management)
+                                                                Eg - Use CodeCommit for code and template version control
+                                    Reliability             -   Focuses on architecting a workload to be consistent and able to recover quickly(Disaster Recovery, Network Topology)
+                                                                Eg - Use Multi-AZ deployments of RDS databases
+                                    Sustainability          -   Focuses on environmental impacts like energy efficiency and consumption(Region selection)
+                                                                Eg - Use EC2 Auto Scaling to ensure maximum utilization
+
+___________________________________________________________________________________________________________________
+
+OPTIMIZING THE COST OF COMPUTE 
+
+Dont use the cloud like a Data Center
