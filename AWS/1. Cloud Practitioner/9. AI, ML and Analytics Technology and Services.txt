@@ -91,4 +91,55 @@ ________________________________________________________________________________
 
 EXPLORING AWS DATA EXCHANGE 
 
+Allows us to securely exchange and use data that is provided by third parties on a subscription basis
+They provide data in the form of Data Product(Anything that can be stored in S3)
 
+3500+ Data products         -   Categories include financial services, healthcare, weather, manufacturing and telecommunications
+Subscriptions 1-36 months   -   Some are paid subscriptions, but many data providers make data products available for free 
+Find and Exchange           -   Designed to be a single central place to find and exchange data 
+Use Case                    -   Analyze customer spending patterns based on geographic location, using data from Mastercard
+Create Own Data products    -   Publish your own data product and let other accounts subscribe
+___________________________________________________________________________________________________________________
+
+UNDERSTANDING AMAZON ELASTIC MAP REDUCE (EMR)
+
+EMR is a Fully Managed Big Data Platform that supports open source technologies like Apache Spark, Apache Hive, Presto, Hadoop
+Large scale parallel data processing and analysis 
+Petabyte scale Interactive Analysis for structured, semi-structured and Unstructured data
+Use Case    -   Data Analysis and Processing(Genomic Data, Click-Stream, Logs)
+
+Supports multiple type of data  
+Structured      -   Financial transactions
+Semi-Structured -   Text, documentation
+Unstructured    -   Application logs, click stream data
+
+Takes data from various sources like S3, DynamoDB, RedShift, Kinesis
+___________________________________________________________________________________________________________________
+
+WHAT IS AMAZON OPENSEARCH 
+
+ElasticSearch       -   Widely used open-source data analysis technology enabling you to get real-time insights from your data
+                        Analyse business data to gain insights and make better decisions
+                        Search Log Data 
+OpenSearch          -   Fully managed ElasticSearch Service based on open-source technology
+                        Compatible with industry standard ElasticSearch open--source APIs, Logstash. amd Kibana 
+                        Ingest data from AWS like Cloudwatch Logs, S3, and DynamoDB
+                        Use Case include Log Analytics, Application Monitoring, Security Analytics, Business Data Analytics
+___________________________________________________________________________________________________________________
+
+EXPLORING MANAGED STREAMING FOR APACHE KAFKA(Amazon MSK)
+
+Fully managed Apache Kafka that process streams of events from hundreds of event sources
+Used to build real time streaming Applications
+
+Apache Kafka    -   Widely used open-source technology used to build real-time data streaming pipelines 
+                    Process stream of events from hundreds of event sources
+                    Data consumers read the data and process it in the order it was produced
+Apache Kafka Clusters can be difficult and time consuming to setup. So with MSK, AWS does heavy lifting for us including provisioning the cluster, configuring Apache Kafka, and managing upgrades 
+Monitoring, replacing unhealthy nodes, and scaling up when needed
+Its like Kinesis.
+
+Use Case        -   Stock market data analysis in real time
+___________________________________________________________________________________________________________________
+
+UNDERSTANDING AMAZON QUICKSIGHT
