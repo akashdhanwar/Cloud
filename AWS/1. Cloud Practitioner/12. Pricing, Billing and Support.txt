@@ -43,4 +43,7 @@ ________________________________________________________________________________
 
 OPTIMIZING THE COST OF COMPUTE 
 
-Dont use the cloud like a Data Center
+Dont Use the Cloud Like a Data Center(Dont overprovision EC2 instances)
+
+Auto Scaling for Cost Optimization      -   Variable Workload is there. Why not have Variable Compute. We can reduce the wasted compute 
+Right-Sizing Instances                  -   Instead of using over provisioned instances
