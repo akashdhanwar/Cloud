@@ -93,3 +93,24 @@ ________________________________________________________________________________
 
 MONITORING AND PREDICTING COSTS ON AWS
 
+Four Stages
+Assess your potential costs                         -   Pricing Calculator      -   It allows you to assess your potential cloud costs.
+                                                                                    You provide your services and configurations
+                                                                                    It produces a cost-estimate breakdown
+                                                                                    https://calculator.aws/#/
+Setup costs safety nets before you start to build   -   AWS Budgets             -   It allows you to set customized budgets and recieve SNS alerts when you exceed your threasholds
+                                                                                    You can also define automated cost saving responses and create reports
+Project and monitor actual cloud cost               -   Cost Explorer           -   It is a dynamic dashboard where you can gain insights on your AWS usage and projected spend
+                                                                                    Filter costs by attributes such as service or region
+                                                                                    Create custom visual reports and drill down for detailed analysis
+Analyze historical cost data                        -   Cost and Usage reports  -   It gives you the most detailed data on your cost and usage history
+                                                                                    Generate reports, store them in S3 and analyze them to gain insights on pre-resource cost data
+___________________________________________________________________________________________________________________
+
+DEMO: SETTING UP A BUDGET ALERT IN YOUR AWS ACCOUNT 
+
+Billing and Cost Management > Budgets > Create a budget > Monthly cost budget > add email recipients > Create
+___________________________________________________________________________________________________________________
+
+MANAGING COSTS IN A MULTI-ACCOUNT ENVIRONMENT 
+
