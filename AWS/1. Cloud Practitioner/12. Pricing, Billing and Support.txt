@@ -70,6 +70,26 @@ ________________________________________________________________________________
 
 CREATING AN S3 STORAGE LIFECYCLE 
 
+Scenario    -   You are a cloud data engineer and you have been asked to help reduce storage costs by transitioning S3 objects to cheaper storage classes.
+                You have been asked to transition objects to Standard-IA after 30 days and expire the objects after 1 year 
 
+1   -   Upload an object to S3 bucket
+2   -   Create an S3 lifecycle for the S3 bucket                -   Click on bucket > Management > Create lifecycle rule > Apply to all objects
+3   -   Add relevant transitions to the S3 lifecycle policy     -   Move object between storage classes and Expire > Add 30 days minimum for expire and move > Create rule
+4   -   Verify your lifecycle policy                            -   Click the object > Overview > Verify changes are there 
+___________________________________________________________________________________________________________________
 
-                                        
+UNDERSTANDING DATA TRANSFER COSTS
+
+Public Internet to AWS Cloud    -   Inbound/Outbound Transfer. 
+                                    Inbound is free. Outbound data transfer to the internet varies in cost by service(100GB in free tier)
+Across Regions                  -   Some or all of above. 
+                                    Inter region data transfer is billed per GB depending on the origin and destination
+Within AWS Region               -   In a region -   Within one AZs(S3 to RDS) free. Multi AZs(Costs)
+                                    Data transfer costs within one region vary by service, but it can in some cases be free
+
+Cost                            -   Outbound(Most Expensive) > Across Regions > Across AZs > Within AZ
+___________________________________________________________________________________________________________________
+
+MONITORING AND PREDICTING COSTS ON AWS
+
