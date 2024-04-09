@@ -47,3 +47,29 @@ Dont Use the Cloud Like a Data Center(Dont overprovision EC2 instances)
 
 Auto Scaling for Cost Optimization      -   Variable Workload is there. Why not have Variable Compute. We can reduce the wasted compute 
 Right-Sizing Instances                  -   Instead of using over provisioned instances
+Reserved Instances                      -   Discount compute up to 72% by reserving instances 1 or 3 years 
+                                            Standard Reserved Instances     -   Reserve capacity of a particular instance type for a significantly discounted hourly rate 
+                                            Convertable RI                  -   Reserve capacity but retain flexibility on what instance types to use, resulting in a smaller overall discount
+                                            Scheduled RI                    -   Reserves a particular instance type, but only during defined time windows, resulting in a moderate discount 
+Spot Instance                           -   Discount compute up to 90% by using spot instance only if you have flexibility for when your workloads run 
+
+Compute Optimizer   -   Uses ML to analyze your CloudWatch utilization metrics, and provides right-sizing recommendations for your EC2 instances 
+
+Fully Embracing on Demand               -   AWS Lambda has no ideal cost and is great for serverless or event-driven workloads 
+                                            AWS Fargate is a serverless container compute option for containerized workloads
+___________________________________________________________________________________________________________________
+
+UNDERSTANDING DATA STORAGE COSTS
+
+S3 is the King of Data storage      -   S3 Standard, Standard-IA, One Zone-IA, Express One Zone
+                                        Glacier Flexible Retrieval, Glacier Deep Archieve, Glacier Instant Retrieval
+S3 Lifecycle Configuration          -   Create per-object policies that define transition actions and expiration actions(Shifting from one Storage class to other)
+S3 Intelligent Tiering              -   For cost savings on unknown access frequencies, use the S3 Intelligent tiering storage class 
+S3 Storage Lens                     -   Examine all S3 across organisation and give recommendations for storage class changes
+___________________________________________________________________________________________________________________
+
+CREATING AN S3 STORAGE LIFECYCLE 
+
+
+
+                                        
