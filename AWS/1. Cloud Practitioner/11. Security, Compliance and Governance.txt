@@ -142,3 +142,108 @@ _________________________________
 
 EXPLORING NETWORK SECURITY SERVICES
 
+Network access control lists(NACLs)
+Provide stateless access control in your VPCs and subnets
+Using it we limit resources that can use your VPC resources
+
+Security Groups 
+Similarly security groups provide stateful access control for prticular resources
+
+Together, security groups and network access control lists can help you define granular access control for resources in your Amazon VPCs
+But sometimes you need more to keep bad guys out 
+
+AWS Network Firewall
+Network firewall not only filters based on origin but can also define complex rules to inspect traffic within your VPCs
+
+Not everything is on VPC. You may have api gateway endpoint 
+
+AWS WAF
+AWS Web Application Firewall
+AWS WAF protects your web applications from common exploits like SQL injection or Cross site scripting
+
+AWS Shield
+To prevent DDoS attack
+Shield Standard is protects your AWS resources from DDoS at no extra cost
+Shield Advanced provides expanded protection and access to a 24/7 DDoS response team
+
+AWS Firewall Manager 
+Manages Network Firewall, AWS WAF, AWS Shield
+Helps you administer your network security from a single service 
+________________________________
+
+WHAT IS SECURITY HUB
+
+Supports a bunch of security and configuration services 
+Firewall Manager - Sends findings on unprotected resources and suspected DDoS attack is under way
+Guard Duty - Tracks activity logs across your AWS account, sends findings in response to malicious behaviour
+Inspector - Inspects your workloads for vulnerabilities and network access, sends its findings to Security Hub
+Macie - Searches S3 buckets for sensitive information including PII and sends its findings to Security Hu 
+Systems Manager - Patch Manager detects noncompliant resources and sends findings to Security Hub
+Config - Uses detective guardrails to find noncompliant resources and sends findings to Security Hub
+IAM Access Analyser - Detects externally accessible resources or unused access and reports findings to Security Hub
+AWS Health - Reports service outages relevant to your AWS resources and sends findings to Security Hub
+
+
+Aggregates findings across AWS ecosystem. Prioritize security events and determine the best way to take action
+_________________________________
+
+DEMO: EXPLORING SECURITY HUB
+
+Security Hub > Go to security hub > Download and deploy > Enable 2 checks > Enable security hub
+_________________________________
+
+RESPONDING TO SECURITY EVENTS 
+
+Four Horsemen of Security Confusion
+AWS Trusted Advisor - Performance, Cost Optimization, Service limits, Security, Operational excellence, Fault tolerance
+Provides best practice advice
+Amazon GuardDuty - Collects activity logs from around AWS and uses ML to intelligently detect threats
+Detects Active threats
+Amazon Detective - Helps to investigate security events
+investigate security events that has already happened
+Amazon Inspector - Scans your workloads for software vulnerabilities and network expoaure
+Detects workload vulnerabilities
+________________________________
+
+GROWING YOUR SECURITY MUSCLES
+
+AWS Cloud Security - Main landing page for security information
+Find info such as latest security white papers, guidance on security best practices, latest reInvent videos
+https://aws.amazon.com/security
+AWS Marketplace - Find prebuilt solutions from third party vendors
+Not all cloud security should be custom built
+Take advantage of prebuilt solutions for operational excellence
+https://aws.amazon.com/marketplace
+AWS Security Blog - Stay uo to date with innovation and annnouncements around security
+Contextualise updates with thoughts from AWS Solution Architects and security experts
+https://aws.amazon.com/blogs/security
+_________________________________
+
+GOVERNING MULTIPLE ACCOUNTS IN AWS 
+
+Create multiple accounts with separate resources 
+
+AWS Organizations 
+Administer multiple AWS accounts from a single point, consolidating cost while organizing and limiting access to resources
+We can use Config rules to detect noncompliant resources across the organizatiin
+Service control policies are used to prevent actions across your organization
+
+AWS Control Tower 
+Automate multi account creation and the application of best practice Config rules and SCPs
+
+Security Hub + AWS Organization = Cool
+__________________________________
+
+UNDERSTANDING COMPLIANCE ON AWS 
+
+Compliance programs like PCI-DSS, GDPR, FedRAMP, FIPS 140-2, HIPAA/HITECH, NIST 800-171
+AWS supports all
+
+Compliance is a shared responsibility 
+_________________________________
+
+QUIZ
+
+
+
+
