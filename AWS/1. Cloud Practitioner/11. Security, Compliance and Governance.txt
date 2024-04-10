@@ -251,6 +251,15 @@ _________________________________
 
 QUIZ
 
-
+- Your company has decided to split its workloads into multiple AWS accounts, but it still wants to be able to take advantage of consolidated billing. How can it accomplish this - AWS Organization
+- Which service can be used to scan for network and software vulnerabilities on your EC2 instances - Inspector
+- A regulator has requested documentation that proves your AWS solutions can meet GDPR compliance. What service can help with this - Artifact 
+- What is the easiest way to ensure that you S3 objects are encryptes at rest - S3 buckets are server side encrypted by default with SSE-S3 managed keys
+- You want to give your EC2 based application access to secrets such as database credentials and passwords, and you want thise credentials to rotate automatically. Which service should you use - Secrets Manager
+- Your company wants to use ML to assist in monitoring for aensitive data such as PII intheir S3 bucket. How can they most easily acgieve this - Use Macie
+- Your company wants to leverage ML to automatically detect security events across your AWS environment. How can they achieve this with the lowest operational overhead - GuardDuty
+- Which of the following best describes the principle of least privilige - Only permission to complete task
+- What can you use to assign granular permissions to users, roles and groups - IAM Policies
+- Which AWS service will protect your AWS resources from DDoS attack - AWS Shield
 
 
