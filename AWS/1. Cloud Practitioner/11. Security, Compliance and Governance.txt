@@ -44,4 +44,23 @@ _______________________________
 
 WHAT IS IAM
 
+Provide/Defines Granular Permission
+Permissions are defined by IAM Policies
+We can apply policies to IAM Users/ User Group/IAM Role. These are called identity based policies. Providing to Group is a good idea.
+IAM Role can be assumed by any resource on AWS and can grant access to other resources. It can also be programmatically assumed by an application
+IAM Role access keys automatically rotate by design
+By default, IAM user has no access to AWS account
+After getting permission to service or resource, IAM user can access it by Console/CLI
+Using CLI, IAM user will connect by using access keys. Using Console, they use Username and Password
+Long time access keys are a security risk. Schedule automatic rotation of IAM access keys
+
+Additional IAM Tools 
+IAM Access Analyzer - Identify resources with external access and can alert us, validate IAM Policies and generate IAM Policies based on usage 
+IAM Policy Simulator - Test new IAM policies before granting them to users, user groups and roles
+__________________________________
+
+TROUBLESHOOTING AN IAM POLICY ON AN EC2 INSTANCE
+
+
+
 
