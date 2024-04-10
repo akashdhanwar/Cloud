@@ -239,7 +239,14 @@ UNDERSTANDING COMPLIANCE ON AWS
 Compliance programs like PCI-DSS, GDPR, FedRAMP, FIPS 140-2, HIPAA/HITECH, NIST 800-171
 AWS supports all
 
-Compliance is a shared responsibility 
+Compliance is a shared responsibility
+
+AWS Artifact 
+Download AWS security and compliance document, provide them to regulators, and inform your cloud architecture
+
+Auditing Review
+Audit Manager - Automatessessments against frameworks designed to meet common compliance standards
+Security Token Service - AWS STS enables you to request temporary credentials for users such as auditors
 _________________________________
 
 QUIZ
