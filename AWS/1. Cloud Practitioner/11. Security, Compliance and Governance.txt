@@ -6,4 +6,18 @@ Securing the cloud means
 Who can enter ?
 What can they do ?
 
-The shared responsibility model
+- The shared responsibility model
+CUSTOMER - Responsibility for security IN the cloud 
+Customer data
+Platform, Application, Identity and Access Management
+Operating System, Network and Firewall configuration
+Client side data, Encryption and Data Integrity, Authentication
+Server side encryption(File System or data)
+Networking traffic Protectiin(encryption, integrity, Identity)
+
+AWS - Responsibility for security OF the cloud
+Software
+Compute, Storage, Database, Networking
+Hardware/AWA Global Infrastructure
+Regions, AZs, Edge Locations
+
