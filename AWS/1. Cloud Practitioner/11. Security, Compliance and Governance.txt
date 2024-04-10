@@ -77,8 +77,17 @@ Go to EC2 IAM Role and add Permission > Attach policy > AmazonS3ReadOnlyAccess >
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html
 ____________________________________
 
+LEVERAGING EXISTING IDENTITY PROVIDERS
 
+Federated Identities - 
+Sometimes organization already have there own identity management system like Microsoft Authenticated Directory(AD). 
+To provide access We can leverage these existing identity providers in a process called Federated Identity
+The service that uses to do this is IAM Identity Center and it is a more secure way to give access to AWS resources than creating IAM user
+You are using IAM Role, when the user sign in using single sign on they are temporarily assumed this role and use that role to access AWS resources
 
+IAM Identity Center allows AWS users to leverage Single Sign-On to temporarily assume a role each time they login 
+
+We can also use IAM Identity Centre as a directory
 
 
 
