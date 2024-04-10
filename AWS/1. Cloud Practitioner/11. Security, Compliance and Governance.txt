@@ -21,3 +21,20 @@ Compute, Storage, Database, Networking
 Hardware/AWA Global Infrastructure
 Regions, AZs, Edge Locations
 
+Well Architected Framework: Security
+Identity and Access Management
+Data Stewardship and encryption
+Network Security
+Application Security
+Compliance 
+Security Management
+_______________________________
+
+WHAT DO WE NEED TO SECURE ON AWS
+
+Shared Reaponaibility Model: Customer Data 
+Retention, Encryption, Backups, Access
+
+Shared Responsibility Model: Platform, Applications, Identity and Access Management(Access Management)
+Shared Responsibility Model: Operating System, Network and firewall configuration
+
