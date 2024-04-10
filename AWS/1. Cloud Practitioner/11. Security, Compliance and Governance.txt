@@ -89,6 +89,56 @@ IAM Identity Center allows AWS users to leverage Single Sign-On to temporarily a
 
 We can also use IAM Identity Centre as a directory
 
+Web Federated Identities -
+Suppose we have application and we want users to use the application. AWS provides Web Federated Identities for authentication. We will be checking with some other identity provider, it will return token to AWS
+Amazon Cognito is the service for Web Federated Identities
+Creates user pools and grant temporary keys to customers to give access to your application
+Leveraging social or enterprise identity providers for authentication.
 
+AWS Directory service -
+It is used to connect IAM Identity Center to Microsoft AD.
+Connect your AWS ecosystem with an existing Microsoft Authenticated Directory
+Host managed Microsoft AD on AWS
 
+AWS Security Token Service -
+If we want to give temporary read only permission like to auditor
+We can create IAM 
+But with STS, we provide temporary access which will allow them to use temporary IAM role
+
+IAM Identity Center can be used in conjuction with AWS Directory Service to achieve federated authentication for your AWS users
+Amazon Cognito allows you to securely authenticate application users, leveraging web identity federation
+________________________________
+
+KEEPING SECRETS SAFE
+
+Secrets means sensitive data like customer data 
+Encryption At Rest means protecting data in place 
+Encryption In Transit means protecting data while it is on the move
+
+Encryption At Rest - S3 -
+S3 is encrypted by default using serverside SSE-S3 Manged keys. All S3 buckets are server side encrypted by default upon creation
+Amazon Macie used ML to search your S3 buckets for PII(personally identifiable information)
+
+Encryption At Rest - Elastic Block Store -
+We use key from Key Management Service(KMS)
+
+Encrption At Rest - RDS
+We can use KMS but if RDS not encrpted then create a copy of RDS and encypt by KMS
+To encrypt an RDS instance, you must create a copy and encrypt the copy. Original cannot be encrypted
+
+Encryption In Transit -
+Traffic within Amazon VPC is encrypted by default
+For public, use HTTPS protocol. It encrypts data in transit with the Transport Layer Security(TLS) protocol
+Check if HTTPS enabled using Certification Manager which allows to provision, deploy and automatically renew public or private SSL/TLS certificate
+
+Systems Manager Parameters Store -
+For usernames and passwords
+Keeps these access and provides programmatic access on AWS
+It can securely store passwords, database strings and other values for reference
+
+Secrets Manager -
+It adde another layer of security by enabling automatic rotation of your secrets
+_________________________________
+
+EXPLORING NETWORK SECURITY SERVICES
 
