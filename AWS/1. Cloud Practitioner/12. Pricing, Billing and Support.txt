@@ -114,3 +114,67 @@ ________________________________________________________________________________
 
 MANAGING COSTS IN A MULTI-ACCOUNT ENVIRONMENT 
 
+AWS Organisations provides consolidated billing. Monitor costs across your organisation from a single account and take advantage of bulk discounts
+Billing Conductor allows you to create billing groups within your AWS organisation. Distribute bulk discounts across billing groups and set custom pricing rates.
+__________________________
+
+MONITORING THE COST OF RESOURCE GROUP
+
+Tags 
+Can be used to group resources in all kinds of different ways
+Key value pairs 
+Filter by Tags - like Env: Production
+_________________________
+
+SEEKING SUPPORT FROM AWS
+
+AWS Support allows you to open tickets and recieve advice from AWS experts
+It comes in 5 different tiers 
+1 - Basic - Free
+ Trusted advisor free checks
+ AWS health dashboard
+ Access to customer service and documentation
+2 - Developer - 29$/month
+ Basic + Recieve general guidance within 12-24 hours depending on severity
+3 - Business - 100$/month
+ Full set of Trusted advisor checks
+ AWS health dashboard
+ Recieve contextual guidance within 1-24 hours depending on severity
+ 24/7 access to phone, web or chat support team 
+4 - Enterprise On-Ramp - 5500$/month
+  Recieve contextual guidance within 30 min to 24 hours depending on severity
+ 24/7 access to phone, web or chat support team
+ Limited consultative review and guidance
+ Proactive guidance from a pool of Technical Account Managers
+ Concierge access to billing issues
+5 - Enterprise - 15000$/month
+ Recieve contextual guidance within 30 min to 24 hours depending on severity
+ 24/7 access to phone, web or chat support team
+ Unlimited consultative review and guidance
+ Proactive guidance from a designated Technical Account Managers
+ Proactive support in managing bills
+
+Business support plan is lowest cost to achieve phone and chat support and the full set of trusted advisory checks
+Emterprise support is needed for concierge like billing assistance wnd guidance from technical account manager
+______________________________
+
+EXPLORING OTHER SOURCES OF SUPPORT
+
+AWS IQ - Find AWS Certified freelancers and consultants
+AWS Managed Services - Pre configured security and operations management helps to scale quickly 
+AWS Professional Services - A team of AWS experts
+AWS Activate - Support and exclusive offers for startups
+_____________________________
+
+QUIZ
+
+- Which AWS service helps matchbyou with AWS certified freelancers and consultants - AWS IQ
+- Your company wants to do extremely detailed analysis of cloud broken down by account, service, product, environment and team among other custom categories. How can they achieve this - Resouce group with tags 
+- Which is not advantage of cloud computing - Minimize the cost of compute 
+- Which S3 storage class allows you to take advantage of cost saving storage classes even if you are not sure how often your objects will be accessed - S3 Intelligent Tiering
+- Your conpany has a business critical application running on EC2 instances that must always be running. This worklod is known and constant and will not change i. upcoming years. What is the best way to reduce the cost of these instances - Standard Reserved Instances
+- Your company has a batch workload that has to run at sone point during the last week of each month, though the exact timibg is flexible. It is designed to run in EC2 instances. It does not harm the completion of the batch process if an instance starts or stops unexpectedly. Hoe can you achieve the most cost savings for this workload - Spot Instances
+- Which billing service should be used to provide a dashbord that includes projections of this months AWS spending by service - Cost Explorer
+- Which is not benefit of AWS organization - Automate best practices for multi-account management
+- Which S3 storage class is best for objects that are accessed extremely infrequently(once per quarter or less), but still require millisecond time retrieval - Glacier Instant Retrieval 
+- Business support plant statement true - Cheapest for trusted adviser and chat support team
