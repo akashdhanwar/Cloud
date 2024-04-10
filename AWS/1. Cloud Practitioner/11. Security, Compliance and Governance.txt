@@ -1,1 +1,9 @@
+30%
 
+SECURITY: THE BIGGER PICTURE
+
+Securing the cloud means 
+Who can enter ?
+What can they do ?
+
+The shared responsibility model
