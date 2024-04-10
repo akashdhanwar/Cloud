@@ -32,9 +32,16 @@ _______________________________
 
 WHAT DO WE NEED TO SECURE ON AWS
 
-Shared Reaponaibility Model: Customer Data 
-Retention, Encryption, Backups, Access
+Shared Reaponaibility Model
+_______________________________
 
-Shared Responsibility Model: Platform, Applications, Identity and Access Management(Access Management)
-Shared Responsibility Model: Operating System, Network and firewall configuration
+ILLUSTRATING THE PRINCIPLE OF LEAST PRIVILEGE
+
+States that you should grant only permissions needed to complete a task
+It reduces Impact of accidents
+Granular permissions on soecific resources are defined by service called IAM
+_______________________________
+
+WHAT IS IAM
+
 
