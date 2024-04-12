@@ -74,6 +74,12 @@ __________________________________
 
 LAUNCH AN EC2 INSTANCE IN A VPC
 
-
+VPC > Create > VPC only > Add 10.0.0.0/16 in ipv4 > Create
+Create subnet > Left sidebar Subnets > Create > Add VPC id > ipv4 same as above > Create
+Make subnet public > Select subnet > Actions > Modify auto assign ip settings > Enable > Save > Left Internet Gateway > Create > Actions > Attach to VPC > Attach
+Configure routing for public > Left Route Tables > Create > Edit routes > Add > Dest as 0.0.0.0/0 > Target will be internet gateway > Save 
+Associate route table to public subnet > Subnet Associations > Edit > Select > Save 
+EC2 > Launch instance > Create key pair > Launch > View all
+____________________________________
 
 
