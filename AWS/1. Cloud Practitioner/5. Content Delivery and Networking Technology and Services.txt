@@ -36,3 +36,44 @@ NETWORKING: THE BIGGER PICTURE
 
 Amazon VPC 
 Secure Isolated section of a cloud kitchen
+We have full control over virtual networking environment including arrangements of workstations/subnets, access rules/security groups and connections to outside worlds like internet gateways
+
+Inside AWS Cloud, we have Amazon VPC
+VPC further have subnets which further segments our VPC allowing us to organizing our resources and add layers of security
+We have AZ in VPC which have subnets. We have a public subnet and a private subnet
+We have route tables and Network access control list for both subnets
+Internet gateway acts as a bridge between VPC and Internet 
+Inside each subnet, we have security group that manages inbound and outbound traffic
+
+Public subnets - Resources here can be accessed from the internet
+Private subnets - Not directly accessible from the outside world
+
+Internet gateway - Main door to the outside world. When we attach Internet Gateway with VPC, it is responsible for routing outing requests and incomming traffic
+
+Route Tables - Instructions for staff from where to take ingredients. They have entries(routes) that determine where network traffic from your subnets should go
+Each subnet in VPC must be associated with a route table
+
+Security in VPC
+Security Groups - act as guidelines what is allowed in and out of each area of your kitchen
+Guarding at home in society
+Operate at instance level 
+Allow you specify allowable protocols, ports and source/destination IP ranges
+Security groups are stateful - if out traffic is allowed for some, then in is automatically allowed
+
+Network Access control list - Provides extra layer of security providing set of rules that control traffic in and out of the subnets
+Guards at gate of society
+Operate at subnet level
+They are stateless
+They can allow or deny traffic based on protocol, port, and source/destination IP address
+__________________________________
+
+DEMO: EXPLORING NETWORKING SERVICES - VPC IN ACTION 
+
+Console > VPC > Create VPC and more > No gateway > View VPC > remember last 4 digits of VPC name > Go to Network NACL in security > select there are inbound and outbound rules > and check security groups as well 
+__________________________________
+
+LAUNCH AN EC2 INSTANCE IN A VPC
+
+
+
+
