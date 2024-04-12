@@ -78,4 +78,17 @@ __________________________________
 
 VISUALIZE METRICS FOR TAGGED RESOURCES ON AMAZON CLOUDWATCH
 
+Scenario 
+You are a cloud operations expert that is tasked with finding a way to visualize CPU utilization for EC2 instances in your AWS account. Your company needs a dashboard where they can track average CPU utilization by Environment
+
+- Create Cloudwatch dashboard
+- Select EC2 CPU utilization in metrics explorer
+- Filter the aggregated metrics by Environment tag
+- Create one visual for each environment
+
+Go to EC2 and ispect instances which is of dev or prod > select and go to tags > Go to CloudWatch and create dashbord > Add metrics explorer from left sidebar > add ec2 and cpu utilization > Add tag in From > Aggregate by average > select only 1 visualization > select dots in graph > View in metrics and edit the name > apply > Actions and add to dashboard
+_________________________________
+
+
+
 
