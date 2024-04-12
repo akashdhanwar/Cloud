@@ -89,6 +89,82 @@ You are a cloud operations expert that is tasked with finding a way to visualize
 Go to EC2 and ispect instances which is of dev or prod > select and go to tags > Go to CloudWatch and create dashbord > Add metrics explorer from left sidebar > add ec2 and cpu utilization > Add tag in From > Aggregate by average > select only 1 visualization > select dots in graph > View in metrics and edit the name > apply > Actions and add to dashboard
 _________________________________
 
+MONITORING SERVICE HEALTH AND BEST PRACTICES
+
+AWS Health Dashboard
+View the status of service and regions relevant to the workloads running in your AWS account
+
+AWS Health API
+Same but programmatically
+Leverage the AWS Health API if you are building a custom observability application
+
+For Best Practices - Trusted Advisor
+Advise on Performance, Cost Optimization, Service limits, Security, Operational Excellence and Fault tolerance
+It will check for 
+Do you have any open security groups ?
+Are you using IAM Users ?
+Do you have MFA enabled on your root user ?
+Are you getting close to any service limits ?
+Do you have any public RDS snapshots ?
+Do you have any public EBS volume snapshots ?
+Do you have any S3 bucket permissions that allow open access ?
+Many more checks are available with a Business or enterprise support plan
+______________________________
+
+UNDERSTANDING AUDITING ON AWS
+
+Auditing is a continuous act of monitoring passive configurations for security and best practices
+Sometimes this is done against a set of standards to achieve industry specific compliance 
+
+Trusted Advisor
+Data Encryption, Secure CloudTrail, Public Access, Resource Provisioning, Network Security and Protect Credentials
+Trusted Advisor uses AWS Config for it 
+It leverages pre defined recommendations or create custom rules
+Detects non compliant resources and alerts administrators in the console
+Does not enforce standards but audits adherence. Enforcing is done through IAM 
+
+Audit Manager 
+Centralize audit data from AWS Config and security services
+Find root cause of noncompliance and generate reports
+Provides prebuilt auditing frameworks to meet industry standards like HIPAA, NIST Cybersecurity, AWS Operational Best Practices and many more
+
+The Well Architected Tool 
+Six pillars like lenses 
+Assess your workloads, learn about best practices and generate action plans
+
+AWS Config is the backbone of configuration auditing on AWS
+_________________________________
+
+IDENTIFYING BUSINESS AND END USER SERVICES
+
+Amazon Connect
+Crete distributed call center in the cloud
+Cloud based contact center
+
+Amazon WorkSpaces
+Create or connect a directory of users and gove them access to virtual desktops
+Provisions remote desktops for dispersed employees
+
+Amazon AppStream
+Host and manage an application in the cloud
+Converts applications to SaaS for employees or end users
+___________________________________
+
+QUIZ - 
+- Which is not a function of AWS Audit Manager - generate insights
+- Which service will notify you about service events, outages, planned changes and acciunt notifications - AWS Health Dashboard
+- Which service allows you to most easily convert an existing application into a cloud hosted SaaS - AppStream
+- Which service allows you to create dashboards where you visualize metrics produced by services and applications on AWS - CloudWatch
+- Which service provides account wide recommendations around coat optimization, service limits and security best practices - Tristed Advisor
+- How long are CloudWatch Logs stored by default - Indefinitely
+- What can you use to group and visualize AWS resources by project, environment or application - Tags
+- What features can be used to analyze your workloads and generate action plans to help tou achieve more relinle and cost effective architecture - Well architected framework
+- What does AWS config do - setup account wise rules and detect non compliant resources
+- How can you recieve a notification when COU utilization of your EC2 instance reaches 90% - Create CloudWatch Alarm
+
+
+
+
 
 
 
