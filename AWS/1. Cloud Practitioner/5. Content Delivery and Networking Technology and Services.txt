@@ -80,6 +80,7 @@ Make subnet public > Select subnet > Actions > Modify auto assign ip settings > 
 Configure routing for public > Left Route Tables > Create > Edit routes > Add > Dest as 0.0.0.0/0 > Target will be internet gateway > Save 
 Associate route table to public subnet > Subnet Associations > Edit > Select > Save 
 EC2 > Launch instance > Create key pair > Launch > View all
+Select instance > Connect > EC2 instance connect > Connect 
 ____________________________________
 
 
