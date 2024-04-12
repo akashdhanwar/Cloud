@@ -37,8 +37,45 @@ Automate Configurations at Scale - We will be leveraging AWS services to automat
 - The Well Architected Framework
 _________________________________
 
-EXPLORING AMAZON CLOUDWATCH AND CLOUDTRAIL
+EXPLORING AMAZON CLOUDWATCH AND AWS CLOUDTRAIL DIFFERENCES
 
+Cloudwatch 
+Gives visibility to cloud resources and applications
+Tracks metrics in dashboards
+Stores logs from many sources 
+Trigger events with CloudWatch Alarms
+Cloudwatch lets you watch your cloud resources as your aws ecosystem evolves
 
+Cloudtrail
+Provides accountability for actions taken in your account 
+Centralizes activity logs across regions in an S3 bucket
+Tracks only API activity in your AWS account
+CloudTrail creates a trail of breadcrumbs for any action in your account
+
+CloudWatch
+For EC2 application and some instance metrics cant be collected unless you install the CloudWatch agent on the instance 
+Metrics requiring CloudWatch Agent - Free Memory, Percentage of Disc space used, Custom application metrics and many more
+
+CloudTrail always leaves a trail
+_________________________________
+
+DEMO: GETTING TO KNOW CLOUDWATCH DASHBOARDS
+
+Console > Cloudwatch > Dashboards > Create ec2-dashboard > Add metric widget of line type > Select and browse metrics Ec2 preinstance > select cpu utilization all 4 > create widget > select log group from left panel > create
+________________________________
+
+MANAGING MANY RESOURCES ON AWS
+
+Tags are key value pair to achieve it
+It can be done in CloudWatch and Cost and Usage Reports
+
+Systems Manager 
+Group and Track resources on AWS, on premesis, or on other cloud platforms
+Take automated actions on resource groups
+View aggregated operational data of resource groups
+Systems Manager Prameter Store can securely store sensitive data like Passwords, DB strings, License keys(IMP)
+__________________________________
+
+VISUALIZE METRICS FOR TAGGED RESOURCES ON AMAZON CLOUDWATCH
 
 
