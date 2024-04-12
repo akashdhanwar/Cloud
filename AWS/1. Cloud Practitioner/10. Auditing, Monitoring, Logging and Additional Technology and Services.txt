@@ -1,1 +1,44 @@
 
+INTRODUCING MONITORING AND LOGGING ON AWS 
+
+- Metrics, Logs and Configurations
+- Collectiong Metrics
+- Log Producers
+- Configuration Management
+- The Well Architected Framework
+
+- Metrics, Logs and Configurations
+Collecting and monitoring these is critical to the health of your AWS ecosystem
+Metrics - Numerical representations of things like capacity and demand, tracked over time 
+Logs - A record of what has happened, to make sense of errors or security events
+Configurations - Settings and guidelines across all of your cloud resources
+
+- Collecting Metrics
+AWS services can publish metrics 
+Metrics help monitor workload health
+Metrics inform design decisions
+Common examples - Lambda invocations or errors, EC2 CPU utilization, RDS read latency, Custom application metrics
+
+We can create charts or alerts on scenarios, Trigger automated events
+
+- Log Producers
+Merrics are derived from logs 
+Logs track actions on your infrastructure
+Common Examples - VPC flow logs, EC2 Instance logs, Account Activity logs, Application logs
+
+- Configuration Management
+Configurations are resource settings or standards
+Types and properties of resources can be standardized across your AWS environment
+Seek guidance and enforce best practices with AWS services
+
+Configurations require monitoring - Standardized configurations require both prevention and detection
+Automate Configurations at Scale - We will be leveraging AWS services to automate enforcement and auditing of configurations
+
+- The Well Architected Framework
+_________________________________
+
+EXPLORING AMAZON CLOUDWATCH AND CLOUDTRAIL
+
+
+
+
