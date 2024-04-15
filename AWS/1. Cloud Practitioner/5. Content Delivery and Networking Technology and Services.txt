@@ -65,12 +65,12 @@ Guards at gate of society
 Operate at subnet level
 They are stateless
 They can allow or deny traffic based on protocol, port, and source/destination IP address
-__________________________________
+___________________________________________________________________________________________________________________
 
 DEMO: EXPLORING NETWORKING SERVICES - VPC IN ACTION 
 
 Console > VPC > Create VPC and more > No gateway > View VPC > remember last 4 digits of VPC name > Go to Network NACL in security > select there are inbound and outbound rules > and check security groups as well 
-__________________________________
+___________________________________________________________________________________________________________________
 
 LAUNCH AN EC2 INSTANCE IN A VPC
 
@@ -81,6 +81,54 @@ Configure routing for public > Left Route Tables > Create > Edit routes > Add > 
 Associate route table to public subnet > Subnet Associations > Edit > Select > Save 
 EC2 > Launch instance > Create key pair > Launch > View all
 Select instance > Connect > EC2 instance connect > Connect 
-____________________________________
+___________________________________________________________________________________________________________________
 
+
+DNS: THE BIGGER PICTURE
+
+Converts website name to IP 
+In AWS we have Route53
+
+Sophisticated Traffic routing       -   Geolocation routing, latency based routing, and weighted robin routing
+Health Checks                       -   Performs health checks on your resources 
+DNS Failover                        -   Automatically redirects users to a secondary location
+Scalability and Integration         -   Scales automatically with your demand. Integrates seamlessly with other AWS services 
+
+Uses
+Web Application Routing
+Load balancing
+Global Traffic Management
+Domain name registration and management
+Private DNS for amazon VPC 
+___________________________________________________________________________________________________________________
+
+APPLYING HYBRID MODELS WITH NETWORKING SERVICES 
+
+AWS Direct Connect 
+Direct private connection from aws to database bypassing internet
+High speed data transfer        -   Ideal for transferring large volumes of data quickly and consistently
+Reduced Bandwidth Costs         -   More cost effective for extensive data transfer compared to internet based transfers 
+Reliable Connection             -   Free from public internet disruptions 
+
+AWS VPN 
+Like a armoured vehicle transferring ingredients to public roads 
+Site-to-site VPN            -   Secure connection between your data center or branch office and your AWS 
+Client VPN                  -   Secure access to AWS resources or your private network from any location 
+
+USE Case
+Direct connect      -   Large scale data transfer, Consistent performance, Sensitive data, 
+VPN                 -   Encrypted over public network, Cost effective, Quick and easy setup
+___________________________________________________________________________________________________________________
+
+QUIZ 
+- What is the main role of DNS service like Amazon Route53 ?                                                                                                                        -   To route end users to applications running on AWS 
+- What is the primary function of a CDN like Amazon CloudFront?                                                                                                                     -   To deliver content globally with low latency and high transfer speeds
+- What is the primary use case for AWS VPN ?                                                                                                                                        -   For secure, encrypted connectivity over the public internet
+- When is AWS Direct Connect the preffered choice over VPN ?                                                                                                                        -   When a high capacity, dedicated data transfer path is needed
+- Which feature is a key aspect of Amazon Route 53 ?                                                                                                                                -   Managing DNS records and routing internet traffic to the appropriate location
+- What is the primary purpose of Amazon VPC ?                                                                                                                                       -   To create a logically isolated section of the AWS cloud for AWS resources 
+- What is the primary function of security groups in Amazon VPC ?                                                                                                                   -   To act as a virtual firewall for EC2 instances, controlling inbound and outbound traffic
+- What is the primary role of an internet gateway in an Amazon VPC ?                                                                                                                -   To enable communication between instances in the VPC and the internet 
+- Which scenario best utilizes AWS Global Accelerator ?                                                                                                                             -   To optimize global application performance by routing user traffic through AWS's global network 
+- Which feature of Amazon Route 53 helps to manage traffic for your application based various criteria, such as geographic location ?                                               -   Traffic flow 
 
