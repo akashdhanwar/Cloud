@@ -1,0 +1,127 @@
+PREPARING FOR THE EXAM 
+
+- Scheduling Exam 
+Head to AWS Certification page and schedule an Exam 
+Sign in or Create a Account and Sign in 
+Grab any voucher codes and Select Exam registration 
+Select exam, in person or online, language and read policies 
+Select location and time 
+Pay for the Exam. Don't forget your exam voucher 
+
+- Study Resources 
+Exam Tips 
+Study Guide 
+Practice Exams 
+Hands-On Labs and Demonstrations
+
+- Exam Weighing 
+Billing, Pricing and Support    -   12%
+Cloud Concepts                  -   24%
+Security and Compliance         -   30%
+Cloud Technology and Services   -   34%
+
+Grading scale is 100-1000 with passing 700+
+50 + 15 = 65 Questions but 50 will affect score 
+___________________________________________________________________________________________________________________
+
+QUESTION BREAKDOWN: CLOUD CONCEPTS 
+
+- The 4 E's
+Examine, Extract relevant, Eliminate incorrect, Evaluate remaining ffor best fit 
+
+Question 1 
+Which of the following scenarios are examples of scaling an IT architecture vertically ? Choose 2                                                                                       -   Scale Vertically    -   Resize or Add ? -   Resize is the answer 
+A - Adding two or more EC2 instances 
+B - Resizing an RDS instance type from db.r5.large to db.r5.xlarge
+C - Adding two more RDS instances 
+D - Resizing an EC2 instance type from a1.medium to a1.xlarge for more CPU and memory
+
+Question 2 
+Your application is highly available in one region and is completely down. What could be the cause of this ?                                                                            -   C and D are incorrect   -   Answer B 
+A - A local zone experiencing an outage 
+B - A region is experiencing an outrage 
+C - An AZ is experiencing an outage 
+D - An edge Location is experiencing an outage 
+
+Question 3
+Which of the following is a design principple of the AWS Well Architected Framework ?                                                                                                   -   A and C are incorrect  -   Answer B
+A - Disregard the business requirements 
+B - Architect for failure
+C - Only Build in one AZ 
+D - Minimize Experimentation 
+___________________________________________________________________________________________________________________
+
+QUESTION BREAKDOWN: SECURITY AND COMPLIANCE 
+
+Question 1 
+Your company wants to encrypt data at rest. How can you do this ?                                                                                                                       -   D in transit and C in transit incorrect -   Answer A
+A - Encrypt EBS volumes 
+B - Use SSL certificates 
+C - Encrypt Load Balancers 
+D - Implement encryption in Direct Connect 
+
+Question 2
+Your company has multiple AWS accounts and wants you to provide a centralized view of security alerts and compliance aletrs and compliance status. Which service can do this for you ?  -   A and B eliminated  -   Answer D
+A - Inspector 
+B - WAF 
+C - Organozations
+D - Security Hub 
+
+Question 3
+You have been tasked with implementing encryption on existing MySQL databases hosted in RDS. Can you do this ?                                                                          -   A B incorrect   -   Answer C
+A - No, RDS encryption cannot be done once a database has been created
+B - No, RDS has no encryption ability
+C - Yes but the databases must be copied to enable encryption when database is created 
+D - Yes all RDS databases are encrypted by default 
+___________________________________________________________________________________________________________________
+
+QUESTION BREAKDOWN: CLOUD TECHNOLOGY AND SERVICES 
+
+Question 1 
+You need to send notifications in response to some CloudWatch alarms. Which AWS service can help meet these requirements ?                                                              -   C D incorrect   -   Answer B
+A - Simple Email Service 
+B - Simple Notification Service 
+C - Simple Queue Service 
+D - CloudTrail 
+
+Question 2 
+Several EC2 instances in a private subnet need internet access. What can you implement to provide them with internet access ?                                                           -   C D incorrect   -   Answer B 
+A - Internet Gateway 
+B - NAT Gateway 
+C - VPC peering
+D - API Gateway
+
+Question 3
+Your company needs to implement a workflow for a series of Lambda functions in a specific Order. Which service can accomplish this ?                                                    -   B A incorrect   -   Answer D
+A - EC2 
+B - Lambda
+C - Code Pipeline 
+D - Step Functions 
+___________________________________________________________________________________________________________________
+
+QUESTION BREAKDOWN: BILLING, PRICING AND SUPPORT
+
+Question 1 
+You are launching an application that uses Fargate and EC2 instances for 1 year with very little or no downtime
+What is the most cost effective pricing option that still meets those requirements ?                                                                                                    -   A D incorrect   -   Answer C
+A - Lambda 
+B - Spot Instances 
+C - A Savings Plan 
+D - On Demand Instances
+
+Question 2
+You need to monitor and recieve alerts for estimated spending overages in AWS. What service will let you do this ?                                                                      -   D B incorrect   -   Answer A
+A - Budgets 
+B - CloudWatch 
+C - Pricing Calculator
+D - QuickSight
+
+Question 3
+A company would like to call or chat with AWS support when issues arise and have billing support. 
+Whats the minimum support plan they need to subscribe to in order to have this access ?                                                                                                 -   B D incorrect   -   Answer B
+A - Developer
+B - Enterprise
+C - Business 
+D - Basic
+___________________________________________________________________________________________________________________
+
