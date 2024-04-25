@@ -54,5 +54,15 @@ __________________________________
 
 WHO OWNS WHAT IN THE CLOUD
 
+- Renting a car
+- Renting Resources in the Cloud
+- The Shared Responsibility Model
+- Exam Tips
 
+- Renting a car
+Your Responsibility - Not to damage it, Not to speed, Pay tolls, etc
+Rental Company - Tire pressure, Full tank of gas, Mechanics
+
+- Renting Resources in the Cloud
+Shared Responsibility Model(In Foundation Course) 
 
