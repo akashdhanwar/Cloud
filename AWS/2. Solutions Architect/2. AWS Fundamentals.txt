@@ -113,15 +113,22 @@ Most important whitepaper is Well Architected Framework
 
 - Well Architected Framework Pillars
 6 Pillars - 
-Operational Excellence
-Performance Efficiency
-Security
-Cost Optimization
-Reliability
-Sustainability
+Operational Excellence - Running and monitoring systems to deliver business value and continually improving processes and procedures
+Performance Efficiency - Using IT and computing efficiently
+Security - Protecting information and systems
+Cost Optimization - Avoiding unnecessary costs
+Reliability - Ensuring a workload performs its intended function correctly and consistently when its expected to
+Sustainability - Minimizing the environmental impacts of running cloud workloads
 (REFER FOUNDATION COURSE)
+____________________________________
 
+AWS FUNDAMENTAL QUIZ
 
+- According to shared responsibility model. who is reponsible for patching, updating and maintaining the OS of EC2 instances in AWS ? - You
+- What category would the VPC service fall into ? - Networking
+- Which is not a Storage services ? - S3, Storage Gateway and EBS. EC2 is not
+- Which of the following is not handled by AWS according to shared responsibility model ? - Customer Data
+- Which category would the EC2 service fall under ? - Compute
 
 
 
