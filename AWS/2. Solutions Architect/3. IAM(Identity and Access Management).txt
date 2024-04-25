@@ -1,1 +1,10 @@
 
+SECURING THE ROOT ACCOUNT 
+
+- What is IAM
+- Understanding IAM
+- What is the Root Account
+- Console Demo
+- Review
+
+- What is IAM 
