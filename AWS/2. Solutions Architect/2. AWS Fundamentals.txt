@@ -64,5 +64,47 @@ Your Responsibility - Not to damage it, Not to speed, Pay tolls, etc
 Rental Company - Tire pressure, Full tank of gas, Mechanics
 
 - Renting Resources in the Cloud
-Shared Responsibility Model(In Foundation Course) 
+Shared Responsibility Model(REFER FOUNDATION COURSE) 
+
+- Exam Tips
+Question - Can you do this yourself in the AWS Management Console ?
+Answer - If yes, you are likely responsible for - Security groups, IAM users, patching EC2 OS, patching DB running on EC2, etc
+If no, AWS is likely responsible for - Management of data centers, Security cameras, cabling, patching RDS OS, etc
+Encryption is a shared responsibility
+____________________________________
+
+COMPUTE, STORAGE, DATABASES AND NETWORKING
+
+- Compute
+- Storage 
+- Databases
+- Networking
+
+- Compute 
+You would not be able to
+build an application without compute power - you need something crunching the data
+EC2, Lambda, Elastic Beanstalk
+
+- Storage 
+Think of storage like a giant disk in the cloud - its a safe place to save your information 
+S3, EBS, EFS, FSx, Storage Gateway
+
+- Databases
+The easiest way to think of a database is a spreadsheet. It is reliable way to store and retrieve information
+RDS, DynamoDB, Redshift
+
+- Networking
+We need a way for our compute, storage and databases to communicate and even a place for them to live. This is where networking comes in 
+VPCs, Direct Connect, Route 53, API Gateway, AWS Global Accelerator
+
+- AWS Solution Architect exam guide 
+Search on google
+____________________________________
+
+WHAT IS WELL ARCHITECTED FRAMEWORK
+
+
+
+
+
 
