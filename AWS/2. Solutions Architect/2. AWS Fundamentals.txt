@@ -1,1 +1,58 @@
+THE BUILDING BLOCKS OF AWS: AZ AND REGIONS
+
+- AWS Global Infrastructure
+- AZ
+- Data Centers
+- Regions 
+- Edge Locations
+- AWS Management Console 
+
+- AWS Global Infrastructure(Screenshot to be taken - 11 Important)
+Regions > AZ
+Service Types -
+End User Computing
+IOT
+Customer Engagement
+AR & VR 
+Analytics(Imp)
+Management & Governance(Imp)
+Robotics
+Migration & Transfer(Imp)
+Compute(Imp)
+Quantum Technologies
+Customer Enablement
+Business Applications
+Application Integration(Imp)
+Security, Identity & Compliance(Imp)
+Media Services
+Blockchain
+Network & Content Delivery(Imp)
+Storage(Imp)
+Containers(Imp)
+Game Development
+Desktop & App Streaming
+AWS Cost Management(Imp)
+Mobile
+Machine Learning
+Satellite
+Developer Tools
+Databases(Imp)
+
+- Region
+Region is a physical location in the world that consists of 2 or more AZ
+3 or more as per latest definition
+
+- AZ 
+Data Center is a building filled with servers
+AZ is one or more discrete data centers - each with redundant power, networking and connectivity - housed in separate facilities
+
+- Edge Locations
+Edge Locations are endpoints for AWS that are used for caching content
+Typically this consists of CloudFront(Amazon CDN)
+There are many more edge locations than regions
+__________________________________
+
+WHO OWNS WHAT IN THE CLOUD
+
+
 
