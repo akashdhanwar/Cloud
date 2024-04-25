@@ -103,6 +103,23 @@ ____________________________________
 
 WHAT IS WELL ARCHITECTED FRAMEWORK
 
+- AWS Whitepapers
+- Well Architected Framework Pillars
+- Exam Tips
+
+- AWS Whitepapers
+https://aws.amazon.com/whitepapers
+Most important whitepaper is Well Architected Framework
+
+- Well Architected Framework Pillars
+6 Pillars - 
+Operational Excellence
+Performance Efficiency
+Security
+Cost Optimization
+Reliability
+Sustainability
+(REFER FOUNDATION COURSE)
 
 
 
