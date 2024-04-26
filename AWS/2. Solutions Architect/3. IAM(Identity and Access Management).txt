@@ -57,6 +57,11 @@ Roles
 
 - Tips
 IAM does not work at regional level, it works on global level
+Most probably question to set permission on S3
+______________________________________
+
+PERMANENT IAM CREDENTIALS
+
 
 
 
