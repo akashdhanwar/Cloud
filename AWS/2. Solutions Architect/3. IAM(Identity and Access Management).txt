@@ -62,6 +62,30 @@ ______________________________________
 
 PERMANENT IAM CREDENTIALS
 
+- The Building Blocks of IAM
+- Best Practices: Policies
+- Best Practices: Users and People
+- The Principle of Least Privilege
+- Console Demo
+- Tips
+
+- The Building Blocks of IAM
+Users - A physical person
+Groups - Functions, such as administrator, developer, etc. Contains users
+Roles - Internal usage within AWS. To access one part of AWS from other part of AWS
+
+- Best Practices: Policies
+It is best practice for Users to inherit permissions from groups
+
+- Best Practices: Users and People
+Always work on the principle that one user equals one physical person. Never share user accounts across multiple people
+
+- The Principle of Least Privilege
+Only assign a user the minimum amount of privileges they need to do their job
+
+- Console Demo
+Create a User Group
+Create a User
 
 
 
