@@ -8,3 +8,27 @@ SECURING THE ROOT ACCOUNT
 - Review
 
 - What is IAM 
+IAM allows you to manage users and their level of access to the AWS account
+Create users and grant permissions to those users
+Create groups and roles
+Control access to AWS resources
+
+It is important to understand IAM both for the exam and for administrating a companys AWS account in real life
+
+- What is the Root Account
+It is the email address you used to sign up for AWS. It has full administrative access to AWS. 
+For this reason it is important to secure this account through MFA
+
+- Tips
+Enable MFA
+Create an admin group for your administrators and assign the appropriate permissions to this group
+Create user accounts for your administrators
+Add your users to the admin group
+_____________________________________
+
+CONTROLLING USERS ACTIONS WITH IAM POLICY DOCUMENTS
+
+
+
+
+
