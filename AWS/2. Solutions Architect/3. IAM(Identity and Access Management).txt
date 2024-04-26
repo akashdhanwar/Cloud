@@ -50,7 +50,7 @@ We assign permissions using policy documents, which are made up of JSON
 }
 
 - How Policy Documents work
-We can assign permissions to -
+We can assign permissions/policies to -
 Group
 Users(Difficult to manage)
 Roles
