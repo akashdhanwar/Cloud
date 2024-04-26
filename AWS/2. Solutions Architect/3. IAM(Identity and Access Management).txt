@@ -28,6 +28,24 @@ _____________________________________
 
 CONTROLLING USERS ACTIONS WITH IAM POLICY DOCUMENTS
 
+- Permissions with IAM
+- JSON Example of Policy Documents
+- How Policy Documente Work 
+- Console Demo 
+- Tips 
+
+- Permissions with IAM
+We assign permissions using policy documents, which are made up of JSON
+{
+ "Version": "2012-10-17",
+ "Statement": " [
+   {
+     "Effect": "Allow",
+     "Action": "*",
+     "Resource": "*"
+   }
+ ]
+}
 
 
 
