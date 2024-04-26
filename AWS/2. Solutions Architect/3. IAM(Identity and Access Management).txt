@@ -30,12 +30,14 @@ CONTROLLING USERS ACTIONS WITH IAM POLICY DOCUMENTS
 
 - Permissions with IAM
 - JSON Example of Policy Documents
-- How Policy Documente Work 
+- How Policy Documents Work 
 - Console Demo 
 - Tips 
 
 - Permissions with IAM
 We assign permissions using policy documents, which are made up of JSON
+
+- JSON Example
 {
  "Version": "2012-10-17",
  "Statement": " [
@@ -46,6 +48,15 @@ We assign permissions using policy documents, which are made up of JSON
    }
  ]
 }
+
+- How Policy Documents work
+We can assign permissions to -
+Group
+Users(Difficult to manage)
+Roles
+
+
+
 
 
 
