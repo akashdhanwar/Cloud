@@ -136,7 +136,7 @@ user1 need access through Policy attached to him and user2 need access through a
 
 Policies > Create > S3 all actions > restrict all except bucket > Bucket add ARN > Paste bucket name in ARN of both buckets > Create > Select policy > Entities attached and add user1 > Attach policy
 Roles > Create > AWS account > This account > Select the policy created above > Create > Select user2 > copy ARN > Select role > Trust relationship paste that arn and update
-Login user2 select top right and click switch role > account id and rolename 
+Assume the Role > Login user2 select top right and click switch role > account id and rolename 
 ___________________________________
 
 
