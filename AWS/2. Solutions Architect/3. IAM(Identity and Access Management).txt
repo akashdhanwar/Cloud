@@ -139,7 +139,14 @@ Roles > Create > AWS account > This account > Select the policy created above > 
 Assume the Role > Login user2 select top right and click switch role > account id and rolename 
 ___________________________________
 
+QUIZ -
 
+- What is the single best thing you can do to secure the root account in AWS - MFA
+- What does EAR in a policy document stands for - Effects, Actions, Resource
+- What us a crucial step
+in securing your AWS account - MFA
+- Which is not a recommended step for securing AWS account - Only use MFA with root account
+- Which of the following statements abour MFA is false - AWS requires MFA for all users
 
 
 
