@@ -115,7 +115,7 @@ IAM Federation - You can combine your existing user account with AWS. For exampl
 Identity Federation - Uses the SAML standard, which is Active Directory
 __________________________________
 
-LAB - INTRODUCTION TO AWS IAM
+LAB - INTRODUCTION TO AWS IAM - USERS AND GROUPS
 
 Create 3 Groups - Admins(Tia, Julie), Developers(John, Mark, DevApp1), Test(Kelby, Moosa, TestApp1)
 Add Users to Groups
