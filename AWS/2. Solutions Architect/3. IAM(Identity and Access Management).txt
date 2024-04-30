@@ -87,6 +87,39 @@ Only assign a user the minimum amount of privileges they need to do their job
 Create a User - Provide User access to Console and select create IAM user
 Create a User Group - Select Administrative access policy and create
 Add a tag as well like Department - Admins
+Go to Account Settings in IAM
+For programmatic access, go to IAM user and create access key. Select use case like CLI
+Identity Providers help IAM to connect with Active Directory
+____________________________________
+
+IAM EXAM TIPS
+
+- Securing AWS Root Account
+MFA on root account
+Create admin group for your administrators, and assign the appropriate permissions to this group
+Create user accounts for your administrators
+Add your users to the admin group
+
+- Assign Permissions Using IAM Policy Documents Consisting of JSON
+
+- Permanent IAM Credentials
+IAM is Universal - It dies not apply to regions at this time
+The Root Account - The account created when you first setup AWS account and which has complete admin access. Secure it as soon as possible and do not use it to log in day to day
+New Users - No permissions when created
+
+Access key ID and secret keys are not the same as username and passwords - You cannot use the access key ID and secret access key to login to the console. However, you would use them to access AWS via APIs and CLI
+You only get to view these once. If you lose them, you have to regenerate them. So, save them in a secure location
+Always set up password rotations. You can create and customize your own password rotation policies
+
+IAM Federation - You can combine your existing user account with AWS. For example, when you log on to your PC(usually using microsoft active directory), you can use the same credentials to login to AWS if you set up federation 
+Identity Federation - Uses the SAML standard, which is Active Directory
+__________________________________
+
+INTRODUCTION TO AWS IAM - LAB
+
+Create 3 Groups - Admins(Tia, Julie), Developers(John, Mark, DevApp1), Test(Kelby, Moosa, TestApp1)
+
+
 
 
 
