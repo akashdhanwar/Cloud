@@ -84,9 +84,9 @@ Always work on the principle that one user equals one physical person. Never sha
 Only assign a user the minimum amount of privileges they need to do their job
 
 - Console Demo
-Create a User Group
-Create a User
-
+Create a User - Provide User access to Console and select create IAM user
+Create a User Group - Select Administrative access policy and create
+Add a tag as well like Department - Admins
 
 
 
