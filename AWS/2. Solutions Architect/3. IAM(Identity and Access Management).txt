@@ -119,7 +119,7 @@ INTRODUCTION TO AWS IAM - LAB
 
 Create 3 Groups - Admins(Tia, Julie), Developers(John, Mark, DevApp1), Test(Kelby, Moosa, TestApp1)
 Add Users to Groups
-
+Denying Permissions will override other related Allow permissions 
 
 
 
