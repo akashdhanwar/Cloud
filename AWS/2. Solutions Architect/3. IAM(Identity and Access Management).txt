@@ -115,11 +115,26 @@ IAM Federation - You can combine your existing user account with AWS. For exampl
 Identity Federation - Uses the SAML standard, which is Active Directory
 __________________________________
 
-INTRODUCTION TO AWS IAM - LAB
+LAB - INTRODUCTION TO AWS IAM
 
 Create 3 Groups - Admins(Tia, Julie), Developers(John, Mark, DevApp1), Test(Kelby, Moosa, TestApp1)
 Add Users to Groups
 Denying Permissions will override other related Allow permissions 
+We can signin to IAM user through IAM signin link in IAM dashboard
+_________________________________
+
+LAB - CREATE AND ASSUME ROLES IN AWS
+
+Two developers - user1 and user2
+Four Buckets - appconfig1, appconfig2, customerdata1 and customerdata2
+
+Create S3RestrictedPolicy and assign to user1
+Create S3RestrictedRole and assign to user2
+Role have 2 things - Permissions(What can you do) and Trust Policy(Who can assume it)
+
+user1 need access through Policy attached to him and user2 need access through a Role assigned 
+
+
 
 
 
