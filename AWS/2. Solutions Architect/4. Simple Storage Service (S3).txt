@@ -9,7 +9,6 @@ S3 OVERVIEW
 - Characteristics
 - Securing your Data
 - Consistency Model
-- Tips 
 
 - What is S3
 Object Storage - S3 provides secure, durable, highly scalable object storage
@@ -61,6 +60,66 @@ Strong consistency for list operations, so after a write, you can immediately pe
 ____________________________________
 
 SECURING YOUR BUCKET WITH S3 BLOCK PUBLIC ACCESS 
+
+- Object ACLs vs Bucket Policies
+- Demo: Create an S3 Bucket
+- Tips
+
+- Object ACLs vs Bucket Policies
+ACLs work on an individual object level
+Bucket Policies work on an entire bucket level
+
+- Demo: Create an S3 Bucket
+Entire S3 console is on global namespace
+Create S3 > Upload Files > Make object publically accessible > 
+Permissions > Uncheck block public access
+Permissions > Object Ownership > Enable ACLs > Select object > Actions > Make public using ACLs
+
+- Tips
+Buckets are private by default 
+_____________________________________
+
+HOSTING A STATIC WEBSITE USING S3
+
+- Static websites on S3
+- Automatic Scaling
+- Console Demo
+
+- Static website on S3
+Static website such as .html sites
+Dynamic websites are those that require database connections, cannot be hosted on S3
+
+- Automatic Scaling
+S3 scales automatically to meet demand. 
+Many enterprises will put static websiteson S3 when they think there is going to be a large number of requests(eg for a movie preview)
+
+- Console Demo
+Create a default S3 Bucket > Uncheck block all public access
+Select bucket > Properties > Static website hosting > Enable and provide index.html and error.html
+Upload index.html, error.html > Make bucket public > Permissions > Bucket Policy > following permissions
+{
+ "Version": "2012-10-17",
+ "Statement": [
+   {
+    "Sid": "PublicReadGetObject",
+    "Effect": "Allow",
+    "Principal": "*",
+    "Action": [
+       "s3:GetObject"
+    ],
+    "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+    ]
+   }
+  ]
+}
+_____________________________________
+
+VERSIONING OBJECTS IN S3
+
+
+
+
+
 
 
 
