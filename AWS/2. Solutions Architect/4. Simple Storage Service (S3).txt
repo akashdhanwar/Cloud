@@ -38,6 +38,29 @@ Version ID - Important for storing multiple versions of the same object
 Metadata - Data about the data that you are storing like content-type, Last modified, etc
 
 - Availability and Durability
-5:30
+The data is spread across multiple devices and facilities to ensure availability and durability
+Availability - 99.95%-99.99%
+Durability - 99.99% till 9 decimal places
+
+S3 Standard is the default storage class
+
+- Characteristics
+Tiered Storage - S3 offers a range of storage classes designed for different use cases
+Lifecycle Management - Define rules to automatically transition objects to a cheaper storage tier or delete objects that are no longer required after a set period of time
+Versioning - With versioning, all versions of an object are stored and can be retrieved, including deleted objects
+
+- Securing your Data
+Server side Encryption - You can set default encryption on a bucket to encrypt all new objects when they are stored in a bucket
+Access Control Lists (ACLs) - Define which AWS accounts or groups are granted access and the type of access. You can attach S3 ACLs to individual objects within a bucket
+Bucket Policies - S3 bucket policies specify what actions are allowed or denied(eg allow user Alice to PUT but not DELETE objects in a bucket)
+
+- Consistency Model
+Strong Read-After-Write Consistency
+After a successful write of a new object (PUT) or an override of an existing object, any subsequent read request immediately receives the latest version of the object
+Strong consistency for list operations, so after a write, you can immediately perform a listing of the objects in a bucket with the changes reflected
+____________________________________
+
+SECURING YOUR BUCKET WITH S3 BLOCK PUBLIC ACCESS 
+
 
 
