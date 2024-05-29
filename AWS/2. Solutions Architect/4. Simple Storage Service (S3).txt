@@ -116,6 +116,25 @@ _____________________________________
 
 VERSIONING OBJECTS IN S3
 
+- What is Versioning
+- Advantages
+- Console Demo
+
+- What is Versioning
+Multiple versions of an object within S3
+
+- Advantages
+All Versions - All versions of an object are stored in S3. This includes all writes and even if you delete an object
+Backup - Can be a great backup tool
+Cannot be Disabled - Once enabled, versioning cannot be disabled - only suspended
+Lifecycle Rules - Can be integrated with lifecycle rules
+Supports MFA - Can support MFA(IMP how can we secure deleting of files)
+
+- Console Demo
+Select Bucket > Properties > Versioning > Enable
+IMP - Previous versions are not public hence we will get access denied while viewing old files
+
+
 
 
 
