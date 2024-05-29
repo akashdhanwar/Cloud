@@ -133,6 +133,11 @@ Supports MFA - Can support MFA(IMP how can we secure deleting of files)
 - Console Demo
 Select Bucket > Properties > Versioning > Enable
 IMP - Previous versions are not public hence we will get access denied while viewing old files
+If we delete file with versioning on, it dont delete but add a new version called deleted marker
+If we delete the deleted marker, we get our file back(Restore)
+___________________________________
+
+S3 STORAGE CLASSES
 
 
 
