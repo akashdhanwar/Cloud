@@ -139,6 +139,23 @@ ___________________________________
 
 S3 STORAGE CLASSES
 
+- S3 Standard
+- S3 Standard - Infrequent Access
+- S3 One Zone - Infrequent Access
+- S3 Intelligent Tiering
+- S3 Glacier Options
+- Performance across S3
+- Storage Costs
+
+
+- S3 Standard 
+High Availability and Durability - Data is stored redundantly across multiple devices in multiple facilities. >= 3 AZs. 99.99% availability. 99.99... eleven 9s Durability
+Designed for frequent access - Perfect for frequently accessed data 
+Suitable for most workloads - The default storage class. Use case include websites, content distribution, mobile and gaming applications and big data analytics
+
+
+- S3 Standard Infrequent Access
+
 
 
 
