@@ -186,6 +186,10 @@ ____________________________________
 
 LIFECYCLE MANAGEMENT WITH S3
 
+- What is Lifecycle Management
+- Lifecycle management and Versioning
+- Console Demo
+
 
 
 
