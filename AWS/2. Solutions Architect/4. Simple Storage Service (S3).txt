@@ -208,7 +208,39 @@ S3 OBJECTS LOCK AND GLACIER VAULT LOCK
 - Legal Holds
 - Glacier Vault Lock
 
+- S3 Object Lock
+Write Once Read Many(WORM) model
+It can help prevent objects from being deleted or modified for a fixed amount of time or indefinitely.
+Used to meet regulatory requirements that require WORM storage, or add a. extra layer of protection against object changes and deletion
 
+- Governance Mode
+Users cant overwrite or delete an object version or alter its lock settings unless they have special permissions
+We can still grant some users permissions to alter the retention settings or delete the objects of necessary
+
+- Compliance Mode
+A protected object cannot be overwritten or deleted by any user, including the root user
+Retention mode cant be changed and its retention period cant be shortened
+Ensures that an object bersion cant be deleted or overwritten for the duration of retention period
+
+- Retention Periods
+Protects an object version for a fixed amount of time
+When you place a retention period on an object version, Amazon S3 stores a timestamp in the objects versions metadata to indicate when the retention period expires
+After retention period expires, the object version can be overwritten or deleted unless you also placed a legal hold on the object version
+
+- Legal Holds
+S3 Object Locks also allows you to place a legal hold on the object version.
+Legal hold prevents an object bersion from being deleted or overwritten.
+Does not have a retention period and remains effective until removed
+Can be freely placed and removed by any user having following permission
+s3:PutObjectLegalHold
+
+- Glacier Vault Lock
+Allows to easily deploy and enforce compliance controls for individual S3 Glacier vaults with a vault lock policy. 
+We can specify controls such as WORM in a vault lock policy and the policy from future edits.
+Once locked, the policy can no longer be changed
+____________________________________
+
+ENCRYPTING S3 OBJECTS
 
 
 
