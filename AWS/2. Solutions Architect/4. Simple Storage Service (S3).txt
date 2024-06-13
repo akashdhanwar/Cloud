@@ -201,7 +201,14 @@ ___________________________________
 
 S3 OBJECTS LOCK AND GLACIER VAULT LOCK
 
-- 
+- S3 Object Lock
+- Governance Mode
+- Compliance Mode 
+- Retention Periods
+- Legal Holds
+- Glacier Vault Lock
+
+
 
 
 
