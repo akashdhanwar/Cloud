@@ -190,6 +190,19 @@ LIFECYCLE MANAGEMENT WITH S3
 - Lifecycle management and Versioning
 - Console Demo
 
+- What is Lifecycle Management
+Automates moving your objects between different storage tiers, thereby maximizing cost effectiveness
+S3 Standard(Keep for 30 days) -> S3-IA(30 days) -> Glacier
+
+Lifecycle Management with Versioning - To move different versions of objects to different storage tiers
+
+S3 Bucket > Management > Lifecycle rules > Create > Move versions > Create
+___________________________________
+
+S3 OBJECTS LOCK AND GLACIER VAULT LOCK
+
+- 
+
 
 
 
