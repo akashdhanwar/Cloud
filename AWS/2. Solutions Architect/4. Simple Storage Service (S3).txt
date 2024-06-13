@@ -242,6 +242,42 @@ ____________________________________
 
 ENCRYPTING S3 OBJECTS
 
+- Types of Encryption
+- Enforcing server-side encryption
+- Console Demo
+
+- Types of Encryption
+Encryption at Transit - SSL/TLS, HTTPS
+Encryption at Rest - Server-Side encryption -
+SSE-S3: S3 managed keys, using AES 256-bit encryption
+SSE-KMS: AWS Key management service-managed keys
+SSE-C: Customer Provided Keys
+Encryption at Rest - Client-Side Encryption - You encrypt the files yourself before you upload them to S3
+
+- Enforcing Server-Side Encryption
+Enabled by default - All objects encrypted Using SSE-S3
+Applies to all objects in S3 bucket
+
+How can we enforce it ?
+x-amz-server-side-encryption - If the files is to be encrypted at upload time, this parameter will be included in the request header of PUT request
+Two options -
+x-amz-server-side-encryption: AES256 - SSE-S3
+x-amz-server-side-encryption: aws:kms - SSE-KMS
+We can provide bucket policy that denies any S3 PUT request that does not include this parameter in request header.
+
+- Console Demo
+Create Bucket > Encryption check
+_____________________________________
+
+OPTIMIZING S3 PERFORMANCE
+
+- S3 Prefixes
+- S3 Performance 
+- Limitations with KMS
+- S3 Performance: Uploads
+- S3 Performance: Downloads
+
+- S3 Prefixes
 
 
 
