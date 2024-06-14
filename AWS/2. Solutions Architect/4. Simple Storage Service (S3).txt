@@ -57,7 +57,7 @@ Bucket Policies - S3 bucket policies specify what actions are allowed or denied(
 Strong Read-After-Write Consistency
 After a successful write of a new object (PUT) or an override of an existing object, any subsequent read request immediately receives the latest version of the object
 Strong consistency for list operations, so after a write, you can immediately perform a listing of the objects in a bucket with the changes reflected
-____________________________________
+___________________________________________________________________________________________________________________
 
 SECURING YOUR BUCKET WITH S3 BLOCK PUBLIC ACCESS 
 
@@ -69,15 +69,9 @@ SECURING YOUR BUCKET WITH S3 BLOCK PUBLIC ACCESS
 ACLs work on an individual object level
 Bucket Policies work on an entire bucket level
 
-- Demo: Create an S3 Bucket
-Entire S3 console is on global namespace
-Create S3 > Upload Files > Make object publically accessible > 
-Permissions > Uncheck block public access
-Permissions > Object Ownership > Enable ACLs > Select object > Actions > Make public using ACLs
-
 - Tips
 Buckets are private by default 
-_____________________________________
+___________________________________________________________________________________________________________________
 
 HOSTING A STATIC WEBSITE USING S3
 
@@ -92,27 +86,7 @@ Dynamic websites are those that require database connections, cannot be hosted o
 - Automatic Scaling
 S3 scales automatically to meet demand. 
 Many enterprises will put static websiteson S3 when they think there is going to be a large number of requests(eg for a movie preview)
-
-- Console Demo
-Create a default S3 Bucket > Uncheck block all public access
-Select bucket > Properties > Static website hosting > Enable and provide index.html and error.html
-Upload index.html, error.html > Make bucket public > Permissions > Bucket Policy > following permissions
-{
- "Version": "2012-10-17",
- "Statement": [
-   {
-    "Sid": "PublicReadGetObject",
-    "Effect": "Allow",
-    "Principal": "*",
-    "Action": [
-       "s3:GetObject"
-    ],
-    "Resource": "arn:aws:s3:::BUCKET_NAME/*"
-    ]
-   }
-  ]
-}
-_____________________________________
+___________________________________________________________________________________________________________________
 
 VERSIONING OBJECTS IN S3
 
@@ -135,7 +109,7 @@ Select Bucket > Properties > Versioning > Enable
 IMP - Previous versions are not public hence we will get access denied while viewing old files
 If we delete file with versioning on, it dont delete but add a new version called deleted marker
 If we delete the deleted marker, we get our file back(Restore)
-___________________________________
+___________________________________________________________________________________________________________________
 
 S3 STORAGE CLASSES
 
@@ -182,7 +156,7 @@ Image attached
 
 - Storage Costs
 https://aws.amazon.com/s3/pricing/
-____________________________________
+___________________________________________________________________________________________________________________
 
 LIFECYCLE MANAGEMENT WITH S3
 
@@ -197,7 +171,7 @@ S3 Standard(Keep for 30 days) -> S3-IA(30 days) -> Glacier
 Lifecycle Management with Versioning - To move different versions of objects to different storage tiers
 
 S3 Bucket > Management > Lifecycle rules > Create > Move versions > Create
-___________________________________
+___________________________________________________________________________________________________________________
 
 S3 OBJECTS LOCK AND GLACIER VAULT LOCK
 
@@ -238,7 +212,7 @@ s3:PutObjectLegalHold
 Allows to easily deploy and enforce compliance controls for individual S3 Glacier vaults with a vault lock policy. 
 We can specify controls such as WORM in a vault lock policy and the policy from future edits.
 Once locked, the policy can no longer be changed
-____________________________________
+___________________________________________________________________________________________________________________
 
 ENCRYPTING S3 OBJECTS
 
@@ -267,7 +241,7 @@ We can provide bucket policy that denies any S3 PUT request that does not includ
 
 - Console Demo
 Create Bucket > Encryption check
-_____________________________________
+___________________________________________________________________________________________________________________
 
 OPTIMIZING S3 PERFORMANCE
 
@@ -305,7 +279,7 @@ Parallellize uploads(increases efficiency)
 S3 Byte-Range Fetchers -
 Parallellize downloads by specific byte ranges
 If there is a failure in download, its for only a specific byte range
-_____________________________________
+___________________________________________________________________________________________________________________
 
 BACKING UP DATA WITH S3 REPLICATION
 
@@ -316,12 +290,54 @@ BACKING UP DATA WITH S3 REPLICATION
 Replicate objects from one bucket to another - Versioning must be enabled on both the source and destination buckets
 Objects in an existing bucket are not replicated automatically - Once replication is turned on,all subsequent updated objects will be replicated automatically
 Delete markers are not replicated by default - Deleting individual versions or delete markers will not be replicated
+___________________________________________________________________________________________________________________
 
+LAB: SET UP CROSS REGION S3 BUCKET REPLICATION 
 - Console Demo
-Source and Destination Bucket > Versioning needed > Source bucket > Management > Replication rules > Select destination > Create new role > Save 
-____________________________________
+Create Two Bucket(Source and Destination). Versioning is needed for Replication 
+Go to Source bucket > Management > Create Replication rules > Select destination > Create new role > Save 
+Try Uploading file to Source, it will get replicated to destination as well
 
+LAB: CREATE A STATIC WEBSITE USING S3 
+- Console Demo
+Create a S3 Bucket > Uncheck block all public access
+Select bucket > Properties > Static website hosting > Enable and provide index.html and error.html
+Upload index.html, error.html > Make bucket public
+Permissions > Bucket Policy > following permissions
+{
+ "Version": "2012-10-17",
+ "Statement": [
+   {
+    "Sid": "PublicReadGetObject",
+    "Effect": "Allow",
+    "Principal": "*",
+    "Action": [
+       "s3:GetObject"
+    ],
+    "Resource": "arn:aws:s3:::BUCKET_NAME/*"
+    ]
+   }
+  ]
+}
 
+LAB: CREATING S3 BUCKETS, MANAGING OBJECTS, AND ENABLING VERSIONING
+- Demo: Create an S3 Bucket
+Entire S3 console is on global namespace
+Create S3 > Upload Files > Make object publically accessible
+Permissions > Uncheck block public access
+Permissions of Object > Ownership > Enable ACLs
+Select Object > Actions > Make public using ACLs
+Enable Versioning
+___________________________________________________________________________________________________________________
 
-
-
+QUIZ -
+- Which of the following is not true                                                                                      - A
+  S3 buckets are public by default 
+  There is no max size for an S3 bucket 
+  In S3, your objects are automatically stored across multiple devices spanning a minimum of 3 AZs 
+  S3 serves as a key-based object store                     
+- Your boss instructs you to make your company's s3 buckets public so employees can download content when                 - Its a terrible idea and opens up huge security risk for your company 
+they are at home. What do you do ?
+- Why is versioning not enabled by default on new S3 buckets ?                                                            - It costs money 
+- How does availability and durability differ in S3 ?                                                                     - Durability is ability of AWS to ensure data is properly stored, Availability is the ability to access your data
+- S3 allows to host ____ websites directly from bucket with no other tools needed ?                                       - Static 
