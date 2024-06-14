@@ -278,9 +278,48 @@ OPTIMIZING S3 PERFORMANCE
 - S3 Performance: Downloads
 
 - S3 Prefixes
+bucketname/folder1/subfolder1/myfile.jpg > /folder1/subfolder1 is the prefix
+bucketname/folder1/myFile.jpg > /folder1 is the prefix
 
+- S3 Performance 
+S3 has extremely low latency. First byte out of S3 in 100-200 ms
+3500 PUT/COPY/DELETE/POST req/sec/prefix
+5500 GET/HEAD req/sec/prefix
+So, More prefix means more Performance 
 
+- Limitations with KMS
+When we upload, we call GenerateDataKey in the KMS API
+When we download, we call Decrypt in the KMS API
 
+Uploading/Downloading will count towards the KMS quota
+Currently we cannot request a quota increase for KMS
+Region-specific, its either 5500 or 10000 or 30000 req/second
+
+- S3 Performance: Uploads
+Multipart upload -
+Recommended for files over 100 MB
+Required for files over 5GB
+Parallellize uploads(increases efficiency)
+
+- S3 Performance: Downloads
+S3 Byte-Range Fetchers -
+Parallellize downloads by specific byte ranges
+If there is a failure in download, its for only a specific byte range
+_____________________________________
+
+BACKING UP DATA WITH S3 REPLICATION
+
+- S3 Replication
+- Console Demo 
+
+- S3 Replication 
+Replicate objects from one bucket to another - Versioning must be enabled on both the source and destination buckets
+Objects in an existing bucket are not replicated automatically - Once replication is turned on,all subsequent updated objects will be replicated automatically
+Delete markers are not replicated by default - Deleting individual versions or delete markers will not be replicated
+
+- Console Demo
+Source and Destination Bucket > Versioning needed > Source bucket > Management > Replication rules > Select destination > Create new role > Save 
+____________________________________
 
 
 
