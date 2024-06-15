@@ -145,7 +145,28 @@ SECURITY GROUP AND BOOTSTRAP SCRIPTS
 - Console Demo
 
 - How humans sense things
+Light - We see light using eyes
+Sound - We hear sound using ears
+Heat - We fel heat using our ski 
 
+- How Computers Communicate
+Linux - SSH port 22
+Windows - RDP port 3389
+HTTP - Web Browsing port 80
+HTTPS - Encrypted web browsing port 443
+
+- Security Groups
+These are virtual firewalls for EC2 instance. By default, everything is blocked
+To let everything in: 0.0.0.0/0
+
+In order to be able to communicate to your EC2 instances via SSH/RDP/HTTP, you will need to open up correct ports
+
+- Bootstrap Script
+A script that runs when the instance first runs
+yum install httpd -y. // installs apache
+yum service httpd start // starts apache
+
+Adding these tasks at boot time adds to the amount of time it takes to boot the instance. However, it allows you to automate the installation of applications
 
 
 
