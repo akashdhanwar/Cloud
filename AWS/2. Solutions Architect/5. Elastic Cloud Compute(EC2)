@@ -100,6 +100,52 @@ ______________________________________
 
 USING ROLES
 
+- What is an IAM Role
+- Roles are Temporary
+- What else can roles do 
+- Console Demo 
+
+- What is an IAM Role
+It is an identity you can create in IAM that has specific permissions. A role is similar to a user, as it is an AWS Identity with permission policies that determine what the identity can and cannot do in AWS
+However, instead of being uniquely associated with one person, a role is intended to be assumable by anyone who needs it 
+
+- Roles are Temporary
+It does not have standard long term credentials the same way passwords or access keys do. Instead when you assume a role, it provides you with temporary security credentials for your role session.
+
+- What else can Roles do
+Roles can be assumed by people, AWS architecture, or other system-level accounts
+It can allow cross account access. This allows one AWS account the ability to interact with resources in other AWS account
+
+- Console Demo
+Create IAM Role - Ensure it has S3 access
+Create an EC2 instance - Attach the role we just created
+Create S3 bucket - Using CLI
+Access S3 from EC2 Instance
+
+IAM > Create Role > AWS Service for EC2 > S3FullAccess > Create
+EC2 > Create Instance > Select key pair and security group > Launch > Select Instance > Actions > Security > Modify IAM Role > Attach above and update. It will be added in Security tab
+Connect to EC2 > sudo su, aws s3 ls > No Access keys. Boooom
+
+Creds are stored in EC2 and hackers can get that, but by Roles they can only assume role
+
+- Tips
+Roles are preferred from a security perspective
+Avoids hard-coding credentials
+Policies control a roles permission
+You can update a policy attached to a role, and it will take immediate effect
+You can attach or detach roles to running EC2 instances without having to stop or terminate those instances
+_____________________________________
+
+SECURITY GROUP AND BOOTSTRAP SCRIPTS
+
+- How humans sense things
+- How conputers communicate
+- Security groups 
+- Bootstrap Scripts
+- Console Demo
+
+- How humans sense things
+
 
 
 
