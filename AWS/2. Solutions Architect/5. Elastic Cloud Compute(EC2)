@@ -34,10 +34,29 @@ Standard RI - Up to 72% off the on-demand price
 Convertible RI - Up to 54% off on-demand price. Has the option to change to a different RI type of equal or greater value
 Scheduled RI - Launch within the time window you define. Match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, week or month
 NOTE that it operates at regional level 
+Savings plan with RI -
+Save up to 72% - All AWS compute usage, regardless of instance type or a Region
+Commit to 1 to 3 years - Commit to a specific amount of compute power(measured by the hour) for a 1 year or 3 year period
+Super Flexible - Not only EC2, this also includes serverless technologies like lambda and Fargate
 
 Where to use Spot Instances -
+Flexibility - Applications that have flexible start and end times. Not used for websites
+Cost Sensitive - Applications that are only feasible at very low compute prices
+Urgent Capacity - Users with an urgent need for large amount of additional computing capacity
+Use case examples - Image rendering, Geonomic sequencing, Algorithmic trading engines
 
-9:26
+When to use Dedicated Host Instances -
+Compliance - Regulatory requirements that may not support multi-tenant virtualization
+License - Great for licensing that does not support multi-tenancy or cloud deployments
+On-Demand - Can be purchased on demand (hourly)
+Reserved - Can be purchased as a reservation for up to 70% off the on-demand price
+
+https://calculator.aws
+______________________________________
+
+DEMO: LAUNCHING AN EC2 INSTANCE
+
+EC2 > Launch Instance > 
 
 
 
