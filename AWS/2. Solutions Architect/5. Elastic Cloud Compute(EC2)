@@ -1,0 +1,46 @@
+
+EC2 OVERVIEW
+
+- Introducing EC2
+- EC2 Pricing
+
+- Introduction to EC2
+Secure, resizable compute capacity in the cloud
+Like a VM, only hosted in AWS instead of your own data center
+Designed to make web-scale cloud computing easier for developers
+The capacity you want when you need it 
+You are in complete control of your instances
+
+Game Changer - AWS led a big change in the industry by introducing EC2
+Pay only for what you use - EC2 changed the economics of computing
+No wasted Capacity - Select the capacity you need right now. Grow and shrink when you need 
+
+- EC2 Pricing 
+On Demand - Pay the hour or the second, depending on the type of instance you run
+Reserved - Reserved capacity for 1 to 3 years. Up to 72% discount on the hourly charge
+Spot - Purchase unused capcity at a discount of up to 90%. Prices fluctuates with supply and demand
+Dedicated - A physical EC2 server dedicated for your use. The most expensive option
+
+Where to use On Demand Instances -
+Flexibily - Low cost and flexibility of EC2 without any upfront pyment or long-term commitment.
+Short-Term - Applications with short-term, spiky, or unpredictable workloads that cannot be interrupted
+Testing the Water - Applications being developed or tested on EC2 for the first time 
+
+Where to use Reserved Instances -
+Predictable Usage - Applications with steady state or predictable usage
+Specific Capcity requirements - Applications that require reserved capacity
+Pay up front - You can make upfront payments to reduce the total computing costs even further
+Standard RI - Up to 72% off the on-demand price
+Convertible RI - Up to 54% off on-demand price. Has the option to change to a different RI type of equal or greater value
+Scheduled RI - Launch within the time window you define. Match your capacity reservation to a predictable recurring schedule that only requires a fraction of a day, week or month
+NOTE that it operates at regional level 
+
+Where to use Spot Instances -
+
+9:26
+
+
+
+
+
+
