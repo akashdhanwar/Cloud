@@ -161,12 +161,41 @@ To let everything in: 0.0.0.0/0
 
 In order to be able to communicate to your EC2 instances via SSH/RDP/HTTP, you will need to open up correct ports
 
-- Bootstrap Script
+- Bootstrap Script(USER DATA)
 A script that runs when the instance first runs
+It passes user data to the EC2 instance and can be used to install applications as well as updates and more
+
+bootstrap.sh -
+#!/bin/bash
+yum update -y
 yum install httpd -y. // installs apache
 yum service httpd start // starts apache
+service httpd start
+cd /var/www/html
+echo "<html><body><h1>Hello cloud gurus</h1></body></html>" > index.html
 
 Adding these tasks at boot time adds to the amount of time it takes to boot the instance. However, it allows you to automate the installation of applications
+
+- Console Demo
+Launch EC2 > Advanced > User data > paste script here as text > Security group > Add http and https > Launch
+Select EC2 and check Security group and rules 
+From details of EC2, click and open public IP and we can see the html file there 
+
+- Tips
+Changes to security group take effect immediately
+Any number of EC2 instances in a security group
+Multiple security groups attached to EC2 instance
+All inbound traffic is blocked by default
+All outbound traffic is allowed
+_____________________________________
+
+EC2 METADATA AND USER DATA
+
+- What is EC2 Metadata
+- Retrieving Metadata
+- Using User data to save metadata
+- Demo
+
 
 
 
