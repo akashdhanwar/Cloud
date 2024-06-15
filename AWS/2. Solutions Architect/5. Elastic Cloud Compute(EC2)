@@ -56,7 +56,53 @@ ______________________________________
 
 DEMO: LAUNCHING AN EC2 INSTANCE
 
-EC2 > Launch Instance > 
+EC2 > Launch Instance > Create RSA key pair > Allow http and https > Launch
+Its created inside a security group
+
+Connect by selecting instance and click Connect > EC2 instance connect
+sudo su 
+dnf update -y
+exit
+______________________________________
+
+AWS COMMAND LINE
+
+- AWS Management Console
+- Command Line Interactions
+- Lesson Objectives
+- AWS CLI Demo
+
+- AWS Management Console
+- Command Line Interactions
+aws s3 ls - tell all s3 buckets
+
+- Lesson Objectives
+Create EC2 Instance
+Create IAM user - Give permission to access and create S3
+Configure AWS CLI - Configure using IAM users credentials. Create s3 and upload file
+
+- Demo
+Launch EC2 Instance
+Connect to it
+sudo su - Privilidges to root
+dnf update -y
+clear
+aws serviceName ls
+aws s3 ls
+aws configure
+Console > IAM > Create User group with Admin access to S3(AmazonS3FullAccess) > Create a user and add to the group
+Go to created user > Security credentials > Create access keys for CLI > Create
+Paste key and secret in aws configure
+aws s3 ls
+aws s3 mb s3://bucketName
+aws s3 ls
+______________________________________
+
+USING ROLES
+
+
+
+
 
 
 
