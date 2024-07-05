@@ -237,7 +237,26 @@ NETWORKING WITH EC2
 - EFA
 
 - Different Virtual Network Options
+You can attach 3 different types of virtual networking cards to your EC2 instances
+ENI - Elastic Network Interface - For basic, day to day networking
+EN - Enhanced Networking - Uses single root I/O  virtualization (SR-IOV) to provide high performance 
+EFA - Elastic Fabric Adapter - Accelerate high performance computing (HPC) and machine learning applications
 
+ENI -
+It allows following
+Private IPv4 Addresses
+Public IPv4 Address
+Many IPv6 Addresses
+MAC Address
+1 or more security groups 
+
+Use case 
+Create a management network
+Use network and security appliances in your VPC
+Create dual-homed instances with workloads/roles on distinct subnets
+Create a low-budget, high-availability solution
+
+Enhanced Networking -
 
 
 
