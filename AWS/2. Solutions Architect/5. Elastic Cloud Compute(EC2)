@@ -279,7 +279,9 @@ Enhanced Networking - For when you need speeds between 10 Gbps and 100 Gbps. Any
 EFA - For when you need to accelerate High Performance Computing(HPC) and machine learning applications or if you need to do an OS-bypass. If you see a scenario question mentioning HPC or ML and asking what network adapter you want, choose EFA
 _____________________________________
 
-OPTIMIZING WITH EC2 
+OPTIMIZING WITH EC2 PLACEMENT GROUPS
+
+
 
 
 
