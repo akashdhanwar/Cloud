@@ -257,6 +257,29 @@ Create dual-homed instances with workloads/roles on distinct subnets
 Create a low-budget, high-availability solution
 
 Enhanced Networking -
+For high performance networking between 10-100 Gbps
+Single Root I/O Virtualization (SR-IOV) - SR-IOV provides higher I/O performance and lower CPU utilization
+Performance - Provides higher bandwidth, higher packet per second(PPS) performance, and consistently lower inter-instance latencies
+
+- ENA vs VF 
+Depending on your instance type, enhanced networking can be enabled using 
+Elastic Network Adapter(ENA) - Supports network speeds up to 100 Gbps for supported instance types
+Intel 82599 Virtual Function(VF) Interface - Supports network speeds up to 10 Gbps for supported instance types. Typically used on older instances
+Tip - Always use ENA over VF interface
+
+- EFA 
+A network device you can attach to your amazon EC2 instance to accelerate High Performance Computing(HPC) and machine learning applications
+Provides lower and more consistent latency and higher throughput than thr TCP transport traditionally used in cloud based HPC systems
+EFA can use OS-Bypass - It makes it a lot faster with much lower latency 
+Os-Bypass enables HPC and machine learning applications to bypass the OS kernel and communicate with the EFA device. Not currently supported with windows - only Linux
+
+- Tips
+ENI - For basic networking. Perhaps you need a separate management network from your production network or a separate logging network, and you need to do this at a low cost. In this scenario, use multiple ENIs for each network
+Enhanced Networking - For when you need speeds between 10 Gbps and 100 Gbps. Anywhere you need reliable, high throughput
+EFA - For when you need to accelerate High Performance Computing(HPC) and machine learning applications or if you need to do an OS-bypass. If you see a scenario question mentioning HPC or ML and asking what network adapter you want, choose EFA
+_____________________________________
+
+OPTIMIZING WITH EC2 
 
 
 
