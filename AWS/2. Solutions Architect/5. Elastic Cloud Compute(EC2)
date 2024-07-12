@@ -281,7 +281,18 @@ _____________________________________
 
 OPTIMIZING WITH EC2 PLACEMENT GROUPS
 
+- 3 Types of Placement Groups
+- Cluster
+- Spread
+- Partition
 
+- 3 Types of Placement Groups
+Cluster
+Spread 
+Partition
+
+- Cluster
+Grouping of instances within a single AZ. Recommended for applications that need low network latency, high network throughput or both
 
 
 
