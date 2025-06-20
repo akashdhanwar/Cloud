@@ -1,1 +1,5 @@
+TOPICS- 
 
+Describe Cloud Concepts 
+Describe Azure Architecture and Services
+Describe Management and Governance 
