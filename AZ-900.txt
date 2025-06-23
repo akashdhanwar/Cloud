@@ -1,5 +1,15 @@
-TOPICS- 
+INTRODUCTION -
 
+Topics - 
 Describe Cloud Concepts 
 Describe Azure Architecture and Services
 Describe Management and Governance 
+
+Computing Resources -
+Wondows & Linux Servers
+Unlimited File storage
+Databases
+Message Queues
+Content Delivery Network
+Batch Processing Jobs
+
