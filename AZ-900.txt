@@ -1,7 +1,7 @@
 INTRODUCTION -
 
 Topics - 
-https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification
+https://learn.microsoft.com/en-in/credentials/certifications/resources/study-guides/az-900
 Describe Cloud Concepts 
 Describe Azure Architecture and Services
 Describe Management and Governance 
