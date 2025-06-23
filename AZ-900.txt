@@ -13,3 +13,5 @@ Message Queues
 Content Delivery Network
 Batch Processing Jobs
 
+https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification
+
