@@ -16,3 +16,8 @@ Batch Processing Jobs
 
 https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/?practice-assessment-type=certification
 
+Use CHATGPT -
+Create Study Plan
+Clarify topics 
+Mention link and ask to create a practice set
+Use notebooklm
