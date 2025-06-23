@@ -21,6 +21,12 @@ Create Study Plan
 Clarify topics 
 Mention link and ask to create a practice set
 Use notebooklm
+_______________________________
+
+What is Cloud Computing -
+The cloud is just someone else's computer
+What makes it special - The ability to rent computing resources - on demand
+1000+ services
 
 
 
