@@ -28,6 +28,14 @@ The cloud is just someone else's computer
 What makes it special - The ability to rent computing resources - on demand
 1000+ services
 
+Web App - run code in the cloud without managing a VM
+Function App - run small code in the cloud without a server
+Logic App - A workflow, perform a series of steps
+AI, Blockchain, Marketplace, etc..
+
+Shared Responsibility Model -
+Users and Customer have divided responsibility
+On-Premises - We are responsible for all like Building security, Physical network, Physical computer, OS patches, Network and Firewall, Application settings, Auth platform, User accounts, Devices, Data 
 
 
 
