@@ -36,6 +36,10 @@ AI, Blockchain, Marketplace, etc..
 Shared Responsibility Model -
 Users and Customer have divided responsibility
 On-Premises - We are responsible for all like Building security, Physical network, Physical computer, OS patches, Network and Firewall, Application settings, Auth platform, User accounts, Devices, Data 
+Cloud Virtual Machine(IaaS) - First 3 by Azure. Others by Client
+Cloud App Service(PaaS) - First 4 by azure. .Next 3 combined. Others by Client
+Cloud SaaS - First 6 by azure. Next one combined. Others by Azure
 
+Public, Private and Hybrid Cloud -
 
 
