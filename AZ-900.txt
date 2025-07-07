@@ -65,6 +65,26 @@ Pay for Operations - Can also be charged per operation
 
 DEMO: Pricing Calculator
 https://azure.microsoft.com/en-us/pricing/calculator
+
+QUIZ-
+- What are the responsibilities of the customers according to the shared responsibility model? 
+Patching and fixing flaws in the infrastructure
+Patching guest OS and applications
+Physical and environmental controls
+Configuration of Azure infrastructure devices
+Answer - B
+- Which cloud deployment model enables an organization to eliminate all non-premises hardware by migrating its infrastructure to cloud-based resources managed by third party provider?
+Public cloud
+On premise private cloud
+Hybrid cloud with private cloud deployed within this organizations data center
+IaaS
+Answer - A
+- A company has distributed its workload on both Azure cloud and some on premises server. What type of architecture is this?
+Virtual Private network
+Virtual private cloud
+Hybrid cloud
+Private cloud
+Answer - C
 _______________________________
 
 
