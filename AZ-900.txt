@@ -63,5 +63,10 @@ Pay for Operations - Can also be charged per operation
  Pay per message, pay per query to a database, etx
  Usually very cheap operation
 
+DEMO: Pricing Calculator
+https://azure.microsoft.com/en-us/pricing/calculator
+_______________________________
+
+
 
 
