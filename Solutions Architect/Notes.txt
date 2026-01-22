@@ -25,7 +25,7 @@ SaaS            -   Uses Applications running on a cloud infrastructure
 Database as a Service(DBaaS - Google Cloud Platform)
 Security as a Service(MSSP - Cisco, Splunk)
 Function as a Service(FaaS - MS Azure functions, Lambda functions)
-Containers as a Servoce(CaaS - Docker, Kubernetes on cloud)
+Containers as a Service(CaaS - Docker, Kubernetes on cloud)
 Malware as a Service(MaaS)
 
 - Cloud Deployment Models   -   Public, Private, Community, Hybrid Cloud
