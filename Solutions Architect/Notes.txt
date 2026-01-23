@@ -9,17 +9,18 @@ Four Services   -   Servers, Storage, Database, Application services
 Other Services  -   ML AI, Blockchain, AR VR, IoT, Analytics, Robotics
 
 - Types of Cloud Computing/Service Models -   IaaS, PaaS, SaaS
-IaaS            -   Networking Infra including high speed connection between data centres
-                    Compute services(Server based/Serverless), running code in the Cloud
-                    Storage and Database services
+IaaS            -   We take services like Compute, Storage, etc for hosting our website.
+                    We have our website ready but need these infra to make it live.
                     Example - AWS Virtual Private Cloud
-PaaS            -   Customers still do not manage/control AWS infrastructure
-                    Control Applications and Services
+PaaS            -   We know coding but need the platform like .net and other tools
+                    We go to PaaS and code there, it provides platform to us
                     Created using Programming languages, libraries, services and tools
                     Some services are managed by AWS
                     .net, java, python, ruby, go, json, yaml
                     Example - Amazon Lightsail, Aurora
-SaaS            -   Uses Applications running on a cloud infrastructure
+SaaS            -   Everything is provided by Cloud Provider as a Software
+                    When we don't know anything like coding
+                    Uses Applications running on a cloud infrastructure
                     Example - Gmail
 
 Database as a Service(DBaaS - Google Cloud Platform)
@@ -57,3 +58,9 @@ AWS Value Proposition: Security
 
 
 2) AWS Solutions Architect Associate 2022: Architecture & Tools
+AWS Global Infrastructure        -  Accessible, Scalable, Reliable, Network Latency, Network Security, Encryption for data at rest
+AWS Shared Responsibility Model  -  IaaS, PaaS, SaaS have different responsibilities for AWS and Customer
+
+
+
+
