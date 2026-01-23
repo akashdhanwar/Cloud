@@ -68,5 +68,6 @@ AWS Value Proposition: Security
                                               Cost Optimization
                                               Sustainability
 
+- Install AWS CLI    -  https://aws.amazon.com/cli
 
 
