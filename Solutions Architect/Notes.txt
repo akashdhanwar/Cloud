@@ -70,5 +70,6 @@ AWS Value Proposition: Security
 
 - Install AWS CLI    -  https://aws.amazon.com/cli
 - Connecting         -  Go to AWS Account > Profile > Security Credentials > Access Keys > Access Key, Secret Key
+                        : aws configure
 
 
