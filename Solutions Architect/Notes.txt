@@ -60,7 +60,12 @@ AWS Value Proposition: Security
 2) AWS Solutions Architect Associate 2022: Architecture & Tools
 AWS Global Infrastructure        -  Accessible, Scalable, Reliable, Network Latency, Network Security, Encryption for data at rest
 AWS Shared Responsibility Model  -  IaaS, PaaS, SaaS have different responsibilities for AWS and Customer
-
+AWS Well Architected Framework(6 Pillars)  -  Operational Excellence
+                                              Security
+                                              Reliability
+                                              Performance Efficiency
+                                              Cost Optimization
+                                              Sustainability
 
 
 
